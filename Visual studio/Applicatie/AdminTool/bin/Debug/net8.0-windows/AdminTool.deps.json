@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AdminTool/1.0.0": {
+        "dependencies": {
+          "GameReviewLibrary": "1.0.0",
+          "GameReviewWebApp": "1.0.0"
+        },
+        "runtime": {
+          "AdminTool.dll": {}
+        }
+      },
+      "GameReviewLibrary/1.0.0": {
+        "dependencies": {
+          "GameReviewWebApp": "1.0.0"
+        },
+        "runtime": {
+          "GameReviewLibrary.dll": {}
+        }
+      },
+      "GameReviewWebApp/1.0.0": {
+        "runtime": {
+          "GameReviewWebApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdminTool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameReviewLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameReviewWebApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

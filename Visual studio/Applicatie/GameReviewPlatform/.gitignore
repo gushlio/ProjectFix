@@ -1,0 +1,95 @@
+# Visual Studio Code
+.vscode/
+
+# Compiled files
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.cache
+*.log
+*.vs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+packages/
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio files
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.obj
+*.pdb
+*.ilk
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+*.VC.opendb
+*.VC.db
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test files
+*.testresults/
+[Bb]uild[Ll]og.*
+
+# TypeScript
+*.tsbuildinfo
+
+# Unity
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+*_Data/
