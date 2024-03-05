@@ -1,0 +1,11 @@
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\bin\Debug\net8.0\ZooBazarLibrary.deps.json
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\bin\Debug\net8.0\ZooBazarLibrary.dll
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\bin\Debug\net8.0\ZooBazarLibrary.pdb
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\obj\Debug\net8.0\ZooBazarLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\obj\Debug\net8.0\ZooBazarLibrary.AssemblyInfoInputs.cache
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\obj\Debug\net8.0\ZooBazarLibrary.AssemblyInfo.cs
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\obj\Debug\net8.0\ZooBazarLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\obj\Debug\net8.0\ZooBazarLibrary.dll
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\obj\Debug\net8.0\refint\ZooBazarLibrary.dll
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\obj\Debug\net8.0\ZooBazarLibrary.pdb
+C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\ZooBazarLibrary\obj\Debug\net8.0\ref\ZooBazarLibrary.dll
