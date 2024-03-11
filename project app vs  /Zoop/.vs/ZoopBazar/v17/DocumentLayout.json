@@ -3,47 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|c:\\users\\dylan\\desktop\\sem 2\\groepsproject\\zoobazarplatform\\zoop\\domain\\icomparable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|solutionrelative:domain\\icomparable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\zoobazarweb\\pages\\sub-page\\animalcare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|solutionrelative:zoobazarweb\\pages\\sub-page\\animalcare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|c:\\users\\dylan\\desktop\\sem 2\\groepsproject\\zoobazarplatform\\zoop\\domain\\localticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|solutionrelative:domain\\localticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\zoobazarweb\\pages\\sub-page\\administration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|solutionrelative:zoobazarweb\\pages\\sub-page\\administration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|c:\\users\\dylan\\desktop\\sem 2\\groepsproject\\zoobazarplatform\\zoop\\domain\\onlineticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|solutionrelative:domain\\onlineticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\zoobazarweb\\pages\\sub-page\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|solutionrelative:zoobazarweb\\pages\\sub-page\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|c:\\users\\dylan\\desktop\\sem 2\\groepsproject\\zoobazarplatform\\zoop\\domain\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|solutionrelative:domain\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|c:\\users\\dylan\\desktop\\sem 2\\groepsproject\\zoobazarplatform\\zoop\\zoobazarweb\\pages\\sub-page\\ticketvender.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|solutionrelative:zoobazarweb\\pages\\sub-page\\ticketvender.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|c:\\users\\dylan\\desktop\\sem 2\\groepsproject\\zoobazarplatform\\zoop\\domain\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|solutionrelative:domain\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\zoobazarweb\\pages\\sub-page\\landing-page.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|solutionrelative:zoobazarweb\\pages\\sub-page\\landing-page.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|c:\\users\\dylan\\desktop\\sem 2\\groepsproject\\zoobazarplatform\\zoop\\domain\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EA1092-B34A-42E2-AE85-0CC247AA94DC}|Domain\\Domain.csproj|solutionrelative:domain\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\zoobazarweb\\pages\\sub-page\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|solutionrelative:zoobazarweb\\pages\\sub-page\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\zoobazarweb\\pages\\sub-page\\task.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7110AA21-BE45-496B-89EF-F641B07D6264}|ZooBazarWEB\\ZooBazarWEB.csproj|solutionrelative:zoobazarweb\\pages\\sub-page\\task.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD3C9832-E47B-452A-A7F6-443C57DB62B7}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AD3C9832-E47B-452A-A7F6-443C57DB62B7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD3C9832-E47B-452A-A7F6-443C57DB62B7}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD3C9832-E47B-452A-A7F6-443C57DB62B7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B80DCE4C-8FDE-4882-83A6-AEC0AA635DA0}|ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj|C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\zoobazardesktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B80DCE4C-8FDE-4882-83A6-AEC0AA635DA0}|ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj|c:\\users\\dylan\\desktop\\sem 2\\groepsproject\\zoobazarplatform\\zoop\\zoobazardesktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B80DCE4C-8FDE-4882-83A6-AEC0AA635DA0}|ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj|solutionrelative:zoobazardesktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -54,143 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TicketVender.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\TicketVender.cshtml",
-              "RelativeDocumentMoniker": "ZooBazarWEB\\Pages\\sub-page\\TicketVender.cshtml",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\TicketVender.cshtml",
-              "RelativeToolTip": "ZooBazarWEB\\Pages\\sub-page\\TicketVender.cshtml",
+              "DocumentIndex": 0,
+              "Title": "IComparable.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\IComparable.cs",
+              "RelativeDocumentMoniker": "Domain\\IComparable.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\IComparable.cs",
+              "RelativeToolTip": "Domain\\IComparable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T14:37:30.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Reports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\Reports.cshtml",
-              "RelativeDocumentMoniker": "ZooBazarWEB\\Pages\\sub-page\\Reports.cshtml",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\Reports.cshtml",
-              "RelativeToolTip": "ZooBazarWEB\\Pages\\sub-page\\Reports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T14:36:40.932Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:39:19.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AnimalCare.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\AnimalCare.cshtml",
-              "RelativeDocumentMoniker": "ZooBazarWEB\\Pages\\sub-page\\AnimalCare.cshtml",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\AnimalCare.cshtml",
-              "RelativeToolTip": "ZooBazarWEB\\Pages\\sub-page\\AnimalCare.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T14:32:01.367Z",
+              "Title": "localTicket.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\localTicket.cs",
+              "RelativeDocumentMoniker": "Domain\\localTicket.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\localTicket.cs",
+              "RelativeToolTip": "Domain\\localTicket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:32:16.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Administration.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\Administration.cshtml",
-              "RelativeDocumentMoniker": "ZooBazarWEB\\Pages\\sub-page\\Administration.cshtml",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\Administration.cshtml",
-              "RelativeToolTip": "ZooBazarWEB\\Pages\\sub-page\\Administration.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T14:30:10.755Z",
+              "Title": "onlineTicket.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\onlineTicket.cs",
+              "RelativeDocumentMoniker": "Domain\\onlineTicket.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\onlineTicket.cs",
+              "RelativeToolTip": "Domain\\onlineTicket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:31:54.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Task.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\Task.cshtml",
-              "RelativeDocumentMoniker": "ZooBazarWEB\\Pages\\sub-page\\Task.cshtml",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\Task.cshtml",
-              "RelativeToolTip": "ZooBazarWEB\\Pages\\sub-page\\Task.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T14:26:40.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\Login.cshtml",
-              "RelativeDocumentMoniker": "ZooBazarWEB\\Pages\\sub-page\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\Login.cshtml",
-              "RelativeToolTip": "ZooBazarWEB\\Pages\\sub-page\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T14:26:02.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DataAccessLayer",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
-              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-07T14:17:07.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\Class1.cs",
-              "RelativeToolTip": "Domain\\Class1.cs",
+              "DocumentIndex": 3,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\Ticket.cs",
+              "RelativeDocumentMoniker": "Domain\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\Ticket.cs",
+              "RelativeToolTip": "Domain\\Ticket.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T14:12:45.912Z",
+              "WhenOpened": "2024-03-11T15:31:32.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\Animal.cs",
+              "RelativeDocumentMoniker": "Domain\\Animal.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\Animal.cs",
+              "RelativeToolTip": "Domain\\Animal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:31:02.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Landing-page.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\Landing-page.cshtml",
-              "RelativeDocumentMoniker": "ZooBazarWEB\\Pages\\sub-page\\Landing-page.cshtml",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarWEB\\Pages\\sub-page\\Landing-page.cshtml",
-              "RelativeToolTip": "ZooBazarWEB\\Pages\\sub-page\\Landing-page.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T14:27:19.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\DataAccessLayer\\Class1.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Class1.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\DataAccessLayer\\Class1.cs",
-              "RelativeToolTip": "DataAccessLayer\\Class1.cs",
+              "Title": "Zoo.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\Zoo.cs",
+              "RelativeDocumentMoniker": "Domain\\Zoo.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\Domain\\Zoo.cs",
+              "RelativeToolTip": "Domain\\Zoo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T14:16:39.126Z"
+              "WhenOpened": "2024-03-11T15:30:22.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarDesktopApp\\Form1.cs",
               "RelativeDocumentMoniker": "ZooBazarDesktopApp\\Form1.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\GameBazar\\ZooBazarDesktopApp\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\GameBazar\\ZooBazarDesktopApp\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\Zoobazarplatform\\Zoop\\ZooBazarDesktopApp\\Form1.cs [Design]",
+              "RelativeToolTip": "ZooBazarDesktopApp\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T14:11:08.537Z"
+              "WhenOpened": "2024-03-11T15:23:07.76Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
