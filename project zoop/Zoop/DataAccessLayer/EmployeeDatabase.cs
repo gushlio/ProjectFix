@@ -85,6 +85,36 @@ namespace DataAccessLayer
                 throw;
             }
         }
+        public void UpdateEmployee(int employeeId, string firstName, string lastName, string emailAddress, string password, double salary, DateTime hireDate, string jobTitle)
+        {
+            string query = "UPDATE Employees SET FirstName = @FirstName, LastName = @LastName, EmailAddress = @EmailAddress, Password = @Password, Salary = @Salary, HireDate = @HireDate, JobTitle = @JobTitle WHERE Id = @EmployeeId";
+
+            try
+            {
+                using (SqlConnection connection = dbManager.GetConnection())
+                {
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@FirstName", firstName);
+                        command.Parameters.AddWithValue("@LastName", lastName);
+                        command.Parameters.AddWithValue("@EmailAddress", emailAddress);
+                        command.Parameters.AddWithValue("@Password", password);
+                        command.Parameters.AddWithValue("@Salary", salary);
+                        command.Parameters.AddWithValue("@HireDate", hireDate);
+                        command.Parameters.AddWithValue("@JobTitle", jobTitle);
+                        command.Parameters.AddWithValue("@EmployeeId", employeeId);
+
+                        connection.Open();
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error occurred while updating employee: " + ex.Message);
+                throw;
+            }
+        }
     }
 }
 

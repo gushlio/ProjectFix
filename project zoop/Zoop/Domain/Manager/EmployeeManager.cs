@@ -38,5 +38,11 @@ namespace Domain.Manager
             employeeDatabase.DeleteEmployee(employee.Id);
         }
 
+        public void UpdateEmployee(Employee employee)
+        {
+            employeeDatabase.UpdateEmployee(employee.Id, employee.FirstName, employee.LastName, employee.EmailAddress, employee.Password, employee.Salary, employee.HireDate, employee.JobTitle);
+        }
+
+
     }
 }
