@@ -33,5 +33,21 @@ namespace Domain.Entity
             Location = location;
             LastFeedTime = lastFeedTime;
         }
+
+        public virtual string MakeSound()
+        {
+            return "animal sounds";
+        }
+        public virtual string Feed()
+        {
+            LastFeedTime = DateTime.Now;
+            return "Feeding the animal.";
+        }
+
+        public virtual string ToString()
+        {
+            return "blalala";
+        }
+
     }
 }
