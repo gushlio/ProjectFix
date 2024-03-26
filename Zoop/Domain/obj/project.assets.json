@@ -1904,19 +1904,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\": {}
+    "C:\\Users\\merkamemaj\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\Domain\\Domain.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\Domain\\obj\\",
+      "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\merkamemaj\\.nuget\\packages\\",
+      "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lachezar Mitov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\merkamemaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1930,8 +1935,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj"
+            "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }
@@ -1967,7 +1972,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

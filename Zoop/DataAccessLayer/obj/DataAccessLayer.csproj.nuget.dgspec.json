@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\obj\\",
+        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\merkamemaj\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lachezar Mitov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\merkamemaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

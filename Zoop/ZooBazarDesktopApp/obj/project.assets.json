@@ -2056,19 +2056,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\": {}
+    "C:\\Users\\merkamemaj\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
       "projectName": "ZooBazarDesktopApp",
-      "projectPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
-      "packagesPath": "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\ZooBazarDesktopApp\\obj\\",
+      "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
+      "packagesPath": "C:\\Users\\merkamemaj\\.nuget\\packages\\",
+      "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\ZooBazarDesktopApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lachezar Mitov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\merkamemaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2082,8 +2087,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\Domain\\Domain.csproj"
+            "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\Domain\\Domain.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\Domain\\Domain.csproj"
             }
           }
         }
@@ -2122,7 +2127,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
