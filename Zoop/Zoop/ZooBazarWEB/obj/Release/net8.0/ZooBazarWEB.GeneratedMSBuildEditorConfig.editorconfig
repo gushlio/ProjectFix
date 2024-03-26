@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ZooBazarWEB
+build_property.RootNamespace = ZooBazarWEB
+build_property.ProjectDir = C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\Zoop\ZooBazarWEB\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Dylan\Desktop\sem 2\Groepsproject\Zoobazarplatform\Zoop\ZooBazarWEB
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/sub-page/Administration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3ViLXBhZ2VcQWRtaW5pc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/sub-page/AnimalCare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3ViLXBhZ2VcQW5pbWFsQ2FyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/sub-page/Landing-page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3ViLXBhZ2VcTGFuZGluZy1wYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/sub-page/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3ViLXBhZ2VcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/sub-page/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3ViLXBhZ2VcUmVwb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/sub-page/Task.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3ViLXBhZ2VcVGFzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/sub-page/TicketVender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3ViLXBhZ2VcVGlja2V0VmVuZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dylan/Desktop/sem 2/Groepsproject/Zoobazarplatform/Zoop/ZooBazarWEB/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9v66pb81ef
