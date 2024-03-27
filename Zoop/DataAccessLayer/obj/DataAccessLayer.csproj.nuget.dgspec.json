@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\zoop-main\\zoop-main\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\zoop-main\\zoop-main\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\zoop-main\\zoop-main\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\merkamemaj\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\zoop-main\\zoop-main\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dylan\\Desktop\\sem 2\\Groepsproject\\zoop-main\\zoop-main\\Zoop\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\merkamemaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
