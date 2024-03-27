@@ -75,7 +75,7 @@
             tabControl1.Location = new Point(3, 3);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(865, 736);
+            tabControl1.Size = new Size(1125, 770);
             tabControl1.TabIndex = 17;
             // 
             // tabPage1
@@ -90,7 +90,7 @@
             tabPage1.Location = new Point(4, 29);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(857, 703);
+            tabPage1.Size = new Size(1117, 737);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Employees";
             // 
@@ -100,7 +100,7 @@
             panelUpdate.Controls.Add(lblUpdateemployee);
             panelUpdate.Location = new Point(6, 6);
             panelUpdate.Name = "panelUpdate";
-            panelUpdate.Size = new Size(831, 28);
+            panelUpdate.Size = new Size(1095, 28);
             panelUpdate.TabIndex = 14;
             // 
             // lblUpdateemployee
@@ -119,9 +119,9 @@
             // 
             panelEmployees.BackColor = Color.DarkGreen;
             panelEmployees.Controls.Add(lblEmployees);
-            panelEmployees.Location = new Point(6, 347);
+            panelEmployees.Location = new Point(12, 347);
             panelEmployees.Name = "panelEmployees";
-            panelEmployees.Size = new Size(831, 28);
+            panelEmployees.Size = new Size(1081, 28);
             panelEmployees.TabIndex = 16;
             // 
             // lblEmployees
@@ -158,7 +158,7 @@
             gbAddBook.Controls.Add(label2);
             gbAddBook.Location = new Point(6, 6);
             gbAddBook.Name = "gbAddBook";
-            gbAddBook.Size = new Size(831, 335);
+            gbAddBook.Size = new Size(1101, 335);
             gbAddBook.TabIndex = 0;
             gbAddBook.TabStop = false;
             gbAddBook.Text = "Add Book";
@@ -170,7 +170,7 @@
             btnUpdate.FlatAppearance.MouseDownBackColor = Color.DarkGreen;
             btnUpdate.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnUpdate.ForeColor = Color.DarkGreen;
-            btnUpdate.Location = new Point(336, 298);
+            btnUpdate.Location = new Point(437, 281);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(201, 31);
             btnUpdate.TabIndex = 39;
@@ -180,14 +180,14 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(573, 119);
+            txtPassword.Location = new Point(821, 119);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(236, 27);
             txtPassword.TabIndex = 38;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(573, 54);
+            txtEmail.Location = new Point(821, 54);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(236, 27);
             txtEmail.TabIndex = 37;
@@ -195,7 +195,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(450, 126);
+            label8.Location = new Point(698, 126);
             label8.Name = "label8";
             label8.Size = new Size(73, 20);
             label8.TabIndex = 36;
@@ -204,7 +204,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(453, 57);
+            label7.Location = new Point(701, 57);
             label7.Name = "label7";
             label7.Size = new Size(49, 20);
             label7.TabIndex = 35;
@@ -212,7 +212,7 @@
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(573, 184);
+            dateTimePicker1.Location = new Point(821, 184);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(250, 27);
             dateTimePicker1.TabIndex = 34;
@@ -220,7 +220,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(450, 191);
+            label6.Location = new Point(698, 191);
             label6.Name = "label6";
             label6.Size = new Size(78, 20);
             label6.TabIndex = 33;
@@ -228,7 +228,7 @@
             // 
             // txtSalary
             // 
-            txtSalary.Location = new Point(573, 251);
+            txtSalary.Location = new Point(821, 251);
             txtSalary.Name = "txtSalary";
             txtSalary.Size = new Size(167, 27);
             txtSalary.TabIndex = 32;
@@ -236,7 +236,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(450, 259);
+            label4.Location = new Point(698, 259);
             label4.Name = "label4";
             label4.Size = new Size(52, 20);
             label4.TabIndex = 31;
@@ -315,7 +315,7 @@
             gbBooks.Controls.Add(btnAddEmployee);
             gbBooks.Location = new Point(6, 347);
             gbBooks.Name = "gbBooks";
-            gbBooks.Size = new Size(831, 334);
+            gbBooks.Size = new Size(1101, 388);
             gbBooks.TabIndex = 15;
             gbBooks.TabStop = false;
             gbBooks.Text = "empl";
@@ -323,10 +323,10 @@
             // dataGridViewStaff
             // 
             dataGridViewStaff.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewStaff.Location = new Point(5, 34);
+            dataGridViewStaff.Location = new Point(11, 34);
             dataGridViewStaff.Name = "dataGridViewStaff";
             dataGridViewStaff.RowHeadersWidth = 51;
-            dataGridViewStaff.Size = new Size(818, 237);
+            dataGridViewStaff.Size = new Size(1076, 293);
             dataGridViewStaff.TabIndex = 42;
             // 
             // btnDeleteEmployee
@@ -336,7 +336,7 @@
             btnDeleteEmployee.FlatAppearance.MouseDownBackColor = Color.DarkGreen;
             btnDeleteEmployee.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDeleteEmployee.ForeColor = Color.DarkGreen;
-            btnDeleteEmployee.Location = new Point(526, 287);
+            btnDeleteEmployee.Location = new Point(720, 349);
             btnDeleteEmployee.Name = "btnDeleteEmployee";
             btnDeleteEmployee.Size = new Size(201, 31);
             btnDeleteEmployee.TabIndex = 41;
@@ -351,7 +351,7 @@
             btnAddEmployee.FlatAppearance.MouseDownBackColor = Color.DarkGreen;
             btnAddEmployee.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAddEmployee.ForeColor = Color.DarkGreen;
-            btnAddEmployee.Location = new Point(125, 287);
+            btnAddEmployee.Location = new Point(118, 349);
             btnAddEmployee.Name = "btnAddEmployee";
             btnAddEmployee.Size = new Size(201, 31);
             btnAddEmployee.TabIndex = 40;
@@ -364,7 +364,7 @@
             tabPage2.Location = new Point(4, 29);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(857, 703);
+            tabPage2.Size = new Size(1117, 737);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Shifts";
             tabPage2.UseVisualStyleBackColor = true;
@@ -377,7 +377,7 @@
             Controls.Add(tabControl1);
             Location = new Point(140, 40);
             Name = "EmployeesUC";
-            Size = new Size(898, 773);
+            Size = new Size(1151, 776);
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             panelUpdate.ResumeLayout(false);

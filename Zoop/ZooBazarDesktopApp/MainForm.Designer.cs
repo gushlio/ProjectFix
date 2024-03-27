@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             panelQuickAccess = new Panel();
+            button1 = new Button();
             btnReport = new Button();
             lblZooBazar = new Label();
             btnDashboard = new Button();
@@ -45,6 +46,7 @@
             // 
             panelQuickAccess.AutoSize = true;
             panelQuickAccess.BackColor = Color.DarkSeaGreen;
+            panelQuickAccess.Controls.Add(button1);
             panelQuickAccess.Controls.Add(btnReport);
             panelQuickAccess.Controls.Add(lblZooBazar);
             panelQuickAccess.Controls.Add(btnDashboard);
@@ -54,8 +56,27 @@
             panelQuickAccess.Controls.Add(btnAreas);
             panelQuickAccess.Location = new Point(2, 3);
             panelQuickAccess.Name = "panelQuickAccess";
-            panelQuickAccess.Size = new Size(131, 811);
+            panelQuickAccess.Size = new Size(131, 917);
             panelQuickAccess.TabIndex = 2;
+            // 
+            // button1
+            // 
+            button1.BackgroundImageLayout = ImageLayout.Center;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(53, 68, 77);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Segoe UI", 10F);
+            button1.ForeColor = Color.White;
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.ImageAlign = ContentAlignment.TopCenter;
+            button1.Location = new Point(3, 829);
+            button1.Name = "button1";
+            button1.Size = new Size(121, 85);
+            button1.TabIndex = 7;
+            button1.Text = "Calendar";
+            button1.TextAlign = ContentAlignment.BottomCenter;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // btnReport
             // 
@@ -192,7 +213,7 @@
             btnClose.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 204);
             btnClose.ForeColor = Color.Black;
             btnClose.ImageAlign = ContentAlignment.TopCenter;
-            btnClose.Location = new Point(959, 3);
+            btnClose.Location = new Point(1275, 9);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(42, 27);
             btnClose.TabIndex = 3;
@@ -205,8 +226,9 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.White;
-            ClientSize = new Size(1015, 814);
+            ClientSize = new Size(1329, 921);
             ControlBox = false;
             Controls.Add(btnClose);
             Controls.Add(panelQuickAccess);
@@ -230,5 +252,6 @@
         private Button btnTickets;
         private Button btnAreas;
         private Button btnClose;
+        private Button button1;
     }
 }

@@ -72,7 +72,7 @@
             tabControl1.Location = new Point(3, 3);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(865, 736);
+            tabControl1.Size = new Size(1132, 775);
             tabControl1.TabIndex = 18;
             // 
             // tabPage1
@@ -85,7 +85,7 @@
             tabPage1.Location = new Point(4, 29);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(857, 703);
+            tabPage1.Size = new Size(1124, 742);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Animals";
             // 
@@ -95,7 +95,7 @@
             panelUpdate.Controls.Add(lblUpdateemployee);
             panelUpdate.Location = new Point(6, 6);
             panelUpdate.Name = "panelUpdate";
-            panelUpdate.Size = new Size(831, 28);
+            panelUpdate.Size = new Size(1108, 28);
             panelUpdate.TabIndex = 14;
             // 
             // lblUpdateemployee
@@ -139,7 +139,7 @@
             gbAddBook.Controls.Add(btnUpdateAnimal);
             gbAddBook.Location = new Point(6, 6);
             gbAddBook.Name = "gbAddBook";
-            gbAddBook.Size = new Size(831, 687);
+            gbAddBook.Size = new Size(1108, 726);
             gbAddBook.TabIndex = 0;
             gbAddBook.TabStop = false;
             gbAddBook.Text = "Add Book";
@@ -147,16 +147,16 @@
             // dataGridViewAnimals
             // 
             dataGridViewAnimals.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAnimals.Location = new Point(15, 350);
+            dataGridViewAnimals.Location = new Point(27, 348);
             dataGridViewAnimals.Name = "dataGridViewAnimals";
             dataGridViewAnimals.RowHeadersWidth = 51;
-            dataGridViewAnimals.Size = new Size(800, 230);
+            dataGridViewAnimals.Size = new Size(1068, 230);
             dataGridViewAnimals.TabIndex = 62;
             // 
             // lblAnimalID
             // 
             lblAnimalID.AutoSize = true;
-            lblAnimalID.Location = new Point(28, 60);
+            lblAnimalID.Location = new Point(107, 77);
             lblAnimalID.Name = "lblAnimalID";
             lblAnimalID.Size = new Size(27, 20);
             lblAnimalID.TabIndex = 61;
@@ -164,14 +164,14 @@
             // 
             // txtAnimalID
             // 
-            txtAnimalID.Location = new Point(550, 57);
+            txtAnimalID.Location = new Point(809, 70);
             txtAnimalID.Name = "txtAnimalID";
             txtAnimalID.Size = new Size(163, 27);
             txtAnimalID.TabIndex = 60;
             // 
             // txtLastFeedTime
             // 
-            txtLastFeedTime.Location = new Point(567, 271);
+            txtLastFeedTime.Location = new Point(826, 284);
             txtLastFeedTime.Name = "txtLastFeedTime";
             txtLastFeedTime.Size = new Size(146, 27);
             txtLastFeedTime.TabIndex = 59;
@@ -179,7 +179,7 @@
             // lblLastFeedTime
             // 
             lblLastFeedTime.AutoSize = true;
-            lblLastFeedTime.Location = new Point(444, 274);
+            lblLastFeedTime.Location = new Point(703, 287);
             lblLastFeedTime.Name = "lblLastFeedTime";
             lblLastFeedTime.Size = new Size(100, 20);
             lblLastFeedTime.TabIndex = 58;
@@ -188,7 +188,7 @@
             // chkIsSick
             // 
             chkIsSick.AutoSize = true;
-            chkIsSick.Location = new Point(550, 164);
+            chkIsSick.Location = new Point(809, 177);
             chkIsSick.Name = "chkIsSick";
             chkIsSick.Size = new Size(57, 24);
             chkIsSick.TabIndex = 57;
@@ -197,21 +197,21 @@
             // 
             // txtLocation
             // 
-            txtLocation.Location = new Point(550, 212);
+            txtLocation.Location = new Point(809, 225);
             txtLocation.Name = "txtLocation";
             txtLocation.Size = new Size(163, 27);
             txtLocation.TabIndex = 56;
             // 
             // txtColor
             // 
-            txtColor.Location = new Point(550, 109);
+            txtColor.Location = new Point(809, 122);
             txtColor.Name = "txtColor";
             txtColor.Size = new Size(163, 27);
             txtColor.TabIndex = 55;
             // 
             // txtWeight
             // 
-            txtWeight.Location = new Point(131, 53);
+            txtWeight.Location = new Point(210, 70);
             txtWeight.Name = "txtWeight";
             txtWeight.Size = new Size(163, 27);
             txtWeight.TabIndex = 54;
@@ -219,7 +219,7 @@
             // lblLocation
             // 
             lblLocation.AutoSize = true;
-            lblLocation.Location = new Point(444, 219);
+            lblLocation.Location = new Point(703, 232);
             lblLocation.Name = "lblLocation";
             lblLocation.Size = new Size(66, 20);
             lblLocation.TabIndex = 53;
@@ -228,7 +228,7 @@
             // lblsick
             // 
             lblsick.AutoSize = true;
-            lblsick.Location = new Point(444, 165);
+            lblsick.Location = new Point(703, 178);
             lblsick.Name = "lblsick";
             lblsick.Size = new Size(70, 20);
             lblsick.TabIndex = 52;
@@ -237,7 +237,7 @@
             // lblColor
             // 
             lblColor.AutoSize = true;
-            lblColor.Location = new Point(444, 112);
+            lblColor.Location = new Point(703, 125);
             lblColor.Name = "lblColor";
             lblColor.Size = new Size(48, 20);
             lblColor.TabIndex = 51;
@@ -246,7 +246,7 @@
             // lblWeight
             // 
             lblWeight.AutoSize = true;
-            lblWeight.Location = new Point(444, 60);
+            lblWeight.Location = new Point(703, 73);
             lblWeight.Name = "lblWeight";
             lblWeight.Size = new Size(59, 20);
             lblWeight.TabIndex = 50;
@@ -255,7 +255,7 @@
             // lblGender
             // 
             lblGender.AutoSize = true;
-            lblGender.Location = new Point(28, 274);
+            lblGender.Location = new Point(107, 291);
             lblGender.Name = "lblGender";
             lblGender.Size = new Size(60, 20);
             lblGender.TabIndex = 49;
@@ -263,7 +263,7 @@
             // 
             // txtGender
             // 
-            txtGender.Location = new Point(131, 267);
+            txtGender.Location = new Point(210, 284);
             txtGender.Name = "txtGender";
             txtGender.Size = new Size(163, 27);
             txtGender.TabIndex = 48;
@@ -271,7 +271,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(28, 219);
+            label1.Location = new Point(107, 236);
             label1.Name = "label1";
             label1.Size = new Size(39, 20);
             label1.TabIndex = 47;
@@ -279,7 +279,7 @@
             // 
             // txtAge
             // 
-            txtAge.Location = new Point(131, 212);
+            txtAge.Location = new Point(210, 229);
             txtAge.Name = "txtAge";
             txtAge.Size = new Size(163, 27);
             txtAge.TabIndex = 46;
@@ -287,7 +287,7 @@
             // lblSpecies
             // 
             lblSpecies.AutoSize = true;
-            lblSpecies.Location = new Point(27, 165);
+            lblSpecies.Location = new Point(106, 182);
             lblSpecies.Name = "lblSpecies";
             lblSpecies.Size = new Size(62, 20);
             lblSpecies.TabIndex = 45;
@@ -295,7 +295,7 @@
             // 
             // txtSpecies
             // 
-            txtSpecies.Location = new Point(131, 158);
+            txtSpecies.Location = new Point(210, 175);
             txtSpecies.Name = "txtSpecies";
             txtSpecies.Size = new Size(163, 27);
             txtSpecies.TabIndex = 44;
@@ -303,7 +303,7 @@
             // lblName
             // 
             lblName.AutoSize = true;
-            lblName.Location = new Point(27, 112);
+            lblName.Location = new Point(106, 129);
             lblName.Name = "lblName";
             lblName.Size = new Size(52, 20);
             lblName.TabIndex = 43;
@@ -311,7 +311,7 @@
             // 
             // txtName
             // 
-            txtName.Location = new Point(131, 105);
+            txtName.Location = new Point(210, 122);
             txtName.Name = "txtName";
             txtName.Size = new Size(163, 27);
             txtName.TabIndex = 42;
@@ -323,7 +323,7 @@
             btnDelete.FlatAppearance.MouseDownBackColor = Color.DarkGreen;
             btnDelete.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDelete.ForeColor = Color.DarkGreen;
-            btnDelete.Location = new Point(315, 635);
+            btnDelete.Location = new Point(444, 635);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(201, 31);
             btnDelete.TabIndex = 41;
@@ -338,7 +338,7 @@
             btnAddAnimal.FlatAppearance.MouseDownBackColor = Color.DarkGreen;
             btnAddAnimal.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAddAnimal.ForeColor = Color.DarkGreen;
-            btnAddAnimal.Location = new Point(27, 635);
+            btnAddAnimal.Location = new Point(64, 635);
             btnAddAnimal.Name = "btnAddAnimal";
             btnAddAnimal.Size = new Size(201, 31);
             btnAddAnimal.TabIndex = 40;
@@ -353,7 +353,7 @@
             btnUpdateAnimal.FlatAppearance.MouseDownBackColor = Color.DarkGreen;
             btnUpdateAnimal.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnUpdateAnimal.ForeColor = Color.DarkGreen;
-            btnUpdateAnimal.Location = new Point(594, 635);
+            btnUpdateAnimal.Location = new Point(836, 635);
             btnUpdateAnimal.Name = "btnUpdateAnimal";
             btnUpdateAnimal.Size = new Size(201, 31);
             btnUpdateAnimal.TabIndex = 39;
@@ -378,7 +378,7 @@
             Controls.Add(tabControl1);
             Location = new Point(140, 40);
             Name = "AnimalsUC";
-            Size = new Size(898, 773);
+            Size = new Size(1151, 781);
             Load += AnimalsUC_Load;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);

@@ -13,6 +13,9 @@
     <Compile Update="UserControls\AnimalsUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\Calendar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -23,6 +26,12 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\TicketsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserControlBlank.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserControlDays.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

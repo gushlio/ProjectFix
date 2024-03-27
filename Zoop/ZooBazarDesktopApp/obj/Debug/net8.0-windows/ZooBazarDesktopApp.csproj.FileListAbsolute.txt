@@ -405,3 +405,6 @@ D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-wind
 D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.Dashboard.resources
 D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.MapUC.resources
 D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.TicketsUC.resources
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.Calendar.resources
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlBlank.resources
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlDays.resources

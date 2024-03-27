@@ -62,7 +62,7 @@
             tabControl1.Location = new Point(3, 3);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(865, 736);
+            tabControl1.Size = new Size(1145, 773);
             tabControl1.TabIndex = 18;
             // 
             // tabPage1
@@ -77,7 +77,7 @@
             tabPage1.Location = new Point(4, 29);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(857, 703);
+            tabPage1.Size = new Size(1137, 740);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Tickets";
             // 
@@ -87,7 +87,7 @@
             panelUpdate.Controls.Add(lblUpdateemployee);
             panelUpdate.Location = new Point(6, 6);
             panelUpdate.Name = "panelUpdate";
-            panelUpdate.Size = new Size(831, 28);
+            panelUpdate.Size = new Size(1115, 28);
             panelUpdate.TabIndex = 14;
             // 
             // lblUpdateemployee
@@ -108,7 +108,7 @@
             panelEmployees.Controls.Add(lblEmployees);
             panelEmployees.Location = new Point(6, 347);
             panelEmployees.Name = "panelEmployees";
-            panelEmployees.Size = new Size(831, 28);
+            panelEmployees.Size = new Size(1115, 28);
             panelEmployees.TabIndex = 16;
             // 
             // lblEmployees
@@ -135,7 +135,7 @@
             gbAddBook.Controls.Add(btnApply);
             gbAddBook.Location = new Point(6, 6);
             gbAddBook.Name = "gbAddBook";
-            gbAddBook.Size = new Size(831, 335);
+            gbAddBook.Size = new Size(1121, 335);
             gbAddBook.TabIndex = 0;
             gbAddBook.TabStop = false;
             gbAddBook.Text = "Add Book";
@@ -144,7 +144,7 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "50", "100", "150", "200", "250", "300" });
-            comboBox1.Location = new Point(578, 165);
+            comboBox1.Location = new Point(866, 165);
             comboBox1.Margin = new Padding(2);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(210, 28);
@@ -153,7 +153,7 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(367, 173);
+            label12.Location = new Point(657, 173);
             label12.Margin = new Padding(2, 0, 2, 0);
             label12.Name = "label12";
             label12.Size = new Size(159, 20);
@@ -162,7 +162,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(578, 61);
+            textBox1.Location = new Point(866, 57);
             textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(210, 27);
@@ -171,7 +171,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(367, 68);
+            label11.Location = new Point(657, 64);
             label11.Margin = new Padding(2, 0, 2, 0);
             label11.Name = "label11";
             label11.Size = new Size(69, 20);
@@ -182,7 +182,7 @@
             // 
             checkedCategoryTicket.FormattingEnabled = true;
             checkedCategoryTicket.Items.AddRange(new object[] { "Adult", "Kid", "Elderly" });
-            checkedCategoryTicket.Location = new Point(27, 123);
+            checkedCategoryTicket.Location = new Point(78, 123);
             checkedCategoryTicket.Margin = new Padding(2);
             checkedCategoryTicket.Name = "checkedCategoryTicket";
             checkedCategoryTicket.Size = new Size(149, 70);
@@ -191,7 +191,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(27, 68);
+            label10.Location = new Point(78, 64);
             label10.Margin = new Padding(2, 0, 2, 0);
             label10.Name = "label10";
             label10.Size = new Size(134, 20);
@@ -205,7 +205,7 @@
             btnApply.FlatAppearance.MouseDownBackColor = Color.DarkGreen;
             btnApply.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnApply.ForeColor = Color.DarkGreen;
-            btnApply.Location = new Point(311, 279);
+            btnApply.Location = new Point(439, 275);
             btnApply.Name = "btnApply";
             btnApply.Size = new Size(201, 31);
             btnApply.TabIndex = 39;
@@ -222,7 +222,7 @@
             gbBooks.Controls.Add(CurrentPrices);
             gbBooks.Location = new Point(6, 347);
             gbBooks.Name = "gbBooks";
-            gbBooks.Size = new Size(831, 334);
+            gbBooks.Size = new Size(1121, 383);
             gbBooks.TabIndex = 15;
             gbBooks.TabStop = false;
             gbBooks.Text = "empl";
@@ -234,7 +234,7 @@
             btnDisplay.FlatAppearance.MouseDownBackColor = Color.DarkGreen;
             btnDisplay.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDisplay.ForeColor = Color.DarkGreen;
-            btnDisplay.Location = new Point(524, 283);
+            btnDisplay.Location = new Point(787, 274);
             btnDisplay.Name = "btnDisplay";
             btnDisplay.Size = new Size(201, 31);
             btnDisplay.TabIndex = 41;
@@ -260,7 +260,7 @@
             // RemainingTickets
             // 
             RemainingTickets.FormattingEnabled = true;
-            RemainingTickets.Location = new Point(426, 51);
+            RemainingTickets.Location = new Point(686, 51);
             RemainingTickets.Margin = new Padding(2);
             RemainingTickets.Name = "RemainingTickets";
             RemainingTickets.Size = new Size(390, 204);
@@ -282,7 +282,7 @@
             Controls.Add(tabControl1);
             Location = new Point(140, 40);
             Name = "TicketsUC";
-            Size = new Size(898, 773);
+            Size = new Size(1151, 779);
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             panelUpdate.ResumeLayout(false);
