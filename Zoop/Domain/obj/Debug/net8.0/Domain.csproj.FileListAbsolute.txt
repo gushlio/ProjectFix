@@ -133,3 +133,18 @@ C:\Users\Dylan\Desktop\sem 2\Groepsproject\zoop-main\Zoop\Domain\obj\Debug\net8.
 C:\Users\Dylan\Desktop\sem 2\Groepsproject\zoop-main\Zoop\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\Dylan\Desktop\sem 2\Groepsproject\zoop-main\Zoop\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\Dylan\Desktop\sem 2\Groepsproject\zoop-main\Zoop\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\bin\Debug\net8.0\Domain.dll
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\bin\Debug\net8.0\Domain.pdb
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\bin\Debug\net8.0\DataAccessLayer.dll
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.csproj.CopyComplete
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.dll
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.pdb
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\ref\Domain.dll

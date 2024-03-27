@@ -123,7 +123,6 @@
             txtSalary.Name = "txtSalary";
             txtSalary.Size = new Size(167, 27);
             txtSalary.TabIndex = 7;
-           // txtSalary.TextChanged += txtSalary_TextChanged;
             // 
             // dateTimePicker1
             // 
@@ -177,6 +176,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightGreen;
             ClientSize = new Size(441, 586);
             Controls.Add(txtPassword);
             Controls.Add(txtEmail);
