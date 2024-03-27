@@ -18,7 +18,7 @@ namespace ZooBazarDesktopApp
         private List<UserControl> userControls;
 
         private Color btnSelectedColor = Color.FromArgb(53, 68, 77);
-        private Color btnDefaultColor = Color.FromArgb(44, 57, 65);
+        private Color btnDefaultColor = Color.FromArgb(0, 0, 0);
         public MainForm()
         {
             InitializeComponent();
@@ -55,14 +55,14 @@ namespace ZooBazarDesktopApp
         {
             this.resetButtonsColor();
             this.userControls[0].BringToFront();
-            this.btnDashboard.BackColor = this.btnSelectedColor;
+            //this.btnDashboard.BackColor = this.btnSelectedColor;
         }
 
         private void btnStaff_Click(object sender, EventArgs e)
         {
             this.resetButtonsColor();
             this.userControls[2].BringToFront();
-            this.btnStaff.BackColor = this.btnSelectedColor;
+            //this.btnStaff.BackColor = this.btnSelectedColor;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -75,30 +75,30 @@ namespace ZooBazarDesktopApp
         {
             this.resetButtonsColor();
             this.userControls[1].BringToFront();
-            this.btnAnimals.BackColor = this.btnSelectedColor;
+            //.btnAnimals.BackColor = this.btnSelectedColor;
         }
 
         private void btnTickets_Click(object sender, EventArgs e)
         {
             this.resetButtonsColor();
             this.userControls[3].BringToFront();
-            this.btnTickets.BackColor = this.btnSelectedColor;
+            //this.btnTickets.BackColor = this.btnSelectedColor;
         }
 
         private void btnAreas_Click(object sender, EventArgs e)
         {
             this.resetButtonsColor();
             this.userControls[4].BringToFront();
-            this.btnAreas.BackColor = this.btnSelectedColor;
+            //this.btnAreas.BackColor = this.btnSelectedColor;
         }
         private void resetButtonsColor()
         {
-            this.btnStaff.BackColor = this.btnDefaultColor;
-            this.btnAnimals.BackColor = this.btnDefaultColor;
-            this.btnTickets.BackColor = this.btnDefaultColor;
-            this.btnDashboard.BackColor = this.btnDefaultColor;
-            this.btnReport.BackColor = this.btnDefaultColor;
-            this.btnAreas.BackColor = this.btnDefaultColor;
+            //this.btnStaff.BackColor = this.btnDefaultColor;
+            //this.btnAnimals.BackColor = this.btnDefaultColor;
+            //this.btnTickets.BackColor = this.btnDefaultColor;
+            //this.btnDashboard.BackColor = this.btnDefaultColor;
+            //this.btnReport.BackColor = this.btnDefaultColor;
+            //this.btnAreas.BackColor = this.btnDefaultColor;
 
         }
     }
