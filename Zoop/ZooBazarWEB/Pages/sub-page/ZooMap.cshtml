@@ -1,0 +1,31 @@
+﻿@page
+@model ZooBazarWEB.Pages.sub_page.ZooMapModel
+@{
+    ViewData["Title"] = "Zoo Map";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="/css/styles.css" /> 
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+        
+        <div class="map">
+            @foreach (var base64Image in Model.ImagesBase64)
+            {
+                <img src="data:image/jpeg;base64,@base64Image" alt="Image" />
+                <div class="button-container">
+                    <button class="button">Sheep</button>
+                    <button class="button">Goat</button>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>
