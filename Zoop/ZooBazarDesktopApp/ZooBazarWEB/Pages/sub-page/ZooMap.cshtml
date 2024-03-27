@@ -1,0 +1,36 @@
+﻿@page
+@model ZooBazarWEB.Pages.sub_page.ZooMapModel
+@{
+    ViewData["Title"] = "Zoo Map";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="/css/styles.css" /> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+
+        <div class="map">
+            <!-- Placeholder for the zoo map image -->
+            <img src="/images/zoo_map.jpg" alt="Zoo Map" />
+
+            <!-- Example: Adding markers for different attractions -->
+            <div class="marker" style="top: 20%; left: 40%;">
+                <div class="marker-label">Lion Enclosure</div>
+            </div>
+
+            <div class="marker" style="top: 50%; left: 70%;">
+                <div class="marker-label">Elephant Exhibit</div>
+            </div>
+
+            <!-- Add more markers as needed -->
+        </div>
+    </div>
+</body>
+</html>
