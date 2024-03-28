@@ -1,10 +1,6 @@
 ﻿using DataAccessLayer;
 using Domain.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Domain.Manager
 {
@@ -34,7 +30,6 @@ namespace Domain.Manager
             foreach (var animalData in animalsData)
             {
                 Animal animal = new Animal(
-                    Convert.ToInt32(animalData["AnimalID"]),
                     animalData["Name"].ToString(),
                     animalData["Species"].ToString(),
                     Convert.ToInt32(animalData["Age"]),
@@ -53,14 +48,13 @@ namespace Domain.Manager
 
         public void DeleteAnimal(Animal animal)
         {
-            // Call the DeleteAnimal method of the AnimalDB to delete the animal
-            animalDB.DeleteAnimal(animal.AnimalID);
+            
         }
 
         public void UpdateAnimal(Animal animal)
         {
             // Call the UpdateAnimal method of the AnimalDB to update the animal
-            animalDB.UpdateAnimal(animal.AnimalID, animal.Name, animal.Species, animal.Age, animal.Gender, animal.Weight, animal.Color, animal.IsSick, animal.Location, animal.LastFeedTime);
+            animalDB.UpdateAnimal(animal.Name, animal.Species, animal.Age, animal.Gender, animal.Weight, animal.Color, animal.IsSick, animal.Location, animal.LastFeedTime);
         }
     }
 }

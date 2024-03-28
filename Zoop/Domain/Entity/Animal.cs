@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Domain.Entity
 {
     public class Animal
     {
-        public int AnimalID { get; set; } // Unique identifier for the animal
+       
         public string Name { get; set; } // Name of the animal
         public string Species { get; set; } // Species of the animal
         public int Age { get; set; } // Age of the animal
@@ -20,9 +16,8 @@ namespace Domain.Entity
         public DateTime LastFeedTime { get; set; } // Last feed time of the animal
 
         // Constructor
-        public Animal(int animalID, string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime)
+        public Animal(string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime)
         {
-            AnimalID = animalID;
             Name = name;
             Species = species;
             Age = age;

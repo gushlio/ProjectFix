@@ -16,8 +16,8 @@ namespace Domain.Entity
         private double wingspan;
         private string beakType;
 
-        public Bird(int animalID, string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime, bool canFly, double wingspan, string beakType)
-        : base(animalID, name, species, age, gender, weight, color, isSick, location, lastFeedTime)
+        public Bird(string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime, bool canFly, double wingspan, string beakType)
+        : base(name, species, age, gender, weight, color, isSick, location, lastFeedTime)
         {
             this.canFly = canFly;
             this.wingspan = wingspan;
