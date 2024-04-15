@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             panelQuickAccess = new Panel();
+            button2 = new Button();
             button1 = new Button();
             btnReport = new Button();
             lblZooBazar = new Label();
@@ -46,6 +47,7 @@
             // 
             panelQuickAccess.AutoSize = true;
             panelQuickAccess.BackColor = Color.DarkSeaGreen;
+            panelQuickAccess.Controls.Add(button2);
             panelQuickAccess.Controls.Add(button1);
             panelQuickAccess.Controls.Add(btnReport);
             panelQuickAccess.Controls.Add(lblZooBazar);
@@ -54,10 +56,29 @@
             panelQuickAccess.Controls.Add(btnStaff);
             panelQuickAccess.Controls.Add(btnTickets);
             panelQuickAccess.Controls.Add(btnAreas);
-            panelQuickAccess.Location = new Point(2, 3);
+            panelQuickAccess.Location = new Point(2, -1);
             panelQuickAccess.Name = "panelQuickAccess";
-            panelQuickAccess.Size = new Size(131, 917);
+            panelQuickAccess.Size = new Size(131, 1102);
             panelQuickAccess.TabIndex = 2;
+            // 
+            // button2
+            // 
+            button2.BackgroundImageLayout = ImageLayout.Center;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(53, 68, 77);
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Segoe UI", 10F);
+            button2.ForeColor = Color.White;
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.ImageAlign = ContentAlignment.TopCenter;
+            button2.Location = new Point(7, 826);
+            button2.Name = "button2";
+            button2.Size = new Size(121, 85);
+            button2.TabIndex = 8;
+            button2.Text = "Tasks";
+            button2.TextAlign = ContentAlignment.BottomCenter;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -69,7 +90,7 @@
             button1.ForeColor = Color.White;
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.TopCenter;
-            button1.Location = new Point(3, 829);
+            button1.Location = new Point(7, 940);
             button1.Name = "button1";
             button1.Size = new Size(121, 85);
             button1.TabIndex = 7;
@@ -213,7 +234,7 @@
             btnClose.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 204);
             btnClose.ForeColor = Color.Black;
             btnClose.ImageAlign = ContentAlignment.TopCenter;
-            btnClose.Location = new Point(1275, 9);
+            btnClose.Location = new Point(1866, 12);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(42, 27);
             btnClose.TabIndex = 3;
@@ -228,13 +249,14 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.White;
-            ClientSize = new Size(1329, 921);
+            ClientSize = new Size(1920, 1055);
             ControlBox = false;
             Controls.Add(btnClose);
             Controls.Add(panelQuickAccess);
             FormBorderStyle = FormBorderStyle.None;
             Name = "MainForm";
             Text = "MainForm";
+            WindowState = FormWindowState.Maximized;
             panelQuickAccess.ResumeLayout(false);
             panelQuickAccess.PerformLayout();
             ResumeLayout(false);
@@ -253,5 +275,6 @@
         private Button btnAreas;
         private Button btnClose;
         private Button button1;
+        private Button button2;
     }
 }

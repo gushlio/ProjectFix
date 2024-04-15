@@ -25,6 +25,9 @@
     <Compile Update="UserControls\MapUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\TasksUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\TicketsUC.cs">
       <SubType>UserControl</SubType>
     </Compile>

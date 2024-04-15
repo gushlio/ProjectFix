@@ -23,7 +23,7 @@ namespace ZooBazarDesktopApp
         {
             InitializeComponent();
             this.userControls = new List<UserControl>()
-                {new Dashboard(), new AnimalsUC(), new EmployeesUC(), new TicketsUC(), new MapUC(), new Calendar() };
+                {new Dashboard(), new AnimalsUC(), new EmployeesUC(), new TicketsUC(), new MapUC(), new TasksUC(), new Calendar() };
             AddControlsToTheForm(this.userControls);
         }
 
@@ -103,6 +103,12 @@ namespace ZooBazarDesktopApp
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            this.resetButtonsColor();
+            this.userControls[6].BringToFront();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             this.resetButtonsColor();
             this.userControls[5].BringToFront();
