@@ -148,3 +148,18 @@ D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.dll
 D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.pdb
 D:\FONTYS\SEM 2\Group project\zoop\Zoop\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.csproj.CopyComplete
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\ref\Domain.dll

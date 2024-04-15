@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FONTYS\\SEM 2\\Group project\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\FONTYS\\SEM 2\\Group project\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FONTYS\\SEM 2\\Group project\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\FONTYS\\SEM 2\\Group project\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\FONTYS\\SEM 2\\Group project\\zoop\\Zoop\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoop\\Zoop\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lachezar Mitov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
