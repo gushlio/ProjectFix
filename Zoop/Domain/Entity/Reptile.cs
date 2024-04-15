@@ -14,8 +14,8 @@ namespace Domain.Entity
         private string scaleType;
         private string eggType;
 
-        public Reptile(int animalID, string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime, string scaleType, string eggType, bool isColdBlooded)
-            : base(animalID, name, species, age, gender, weight, color, isSick, location, lastFeedTime)
+        public Reptile(string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime, string scaleType, string eggType, bool isColdBlooded)
+            : base(name, species, age, gender, weight, color, isSick, location, lastFeedTime)
         {
             this.isColdBlooded = isColdBlooded;
             this.scaleType = scaleType;

@@ -12,8 +12,8 @@ namespace Domain.Entity
     {
         private string furType;
 
-        public Mammal(int animalID, string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime, string furType)
-            : base(animalID, name, species, age, gender, weight, color, isSick, location, lastFeedTime)
+        public Mammal(string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime, string furType)
+            : base(name, species, age, gender, weight, color, isSick, location, lastFeedTime)
         {
             this.furType = furType;
         }

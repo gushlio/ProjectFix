@@ -152,7 +152,7 @@ namespace ZooBazarDesktopApp
         {
             // Get input from text boxes and create an Animal object
             Animal animal = new Animal(
-                0, // AnimalID (0 because it will be assigned by the database)
+                
                 txtName.Text,
                 txtSpecies.Text,
                 int.Parse(txtAge.Text),
@@ -174,7 +174,6 @@ namespace ZooBazarDesktopApp
         {
             // Get input from text boxes and create an Animal object
             Animal animal = new Animal(
-                int.Parse(txtAnimalID.Text),
                 txtName.Text,
                 txtSpecies.Text,
                 int.Parse(txtAge.Text),
@@ -197,7 +196,7 @@ namespace ZooBazarDesktopApp
             int animalID = int.Parse(txtAnimalID.Text);
 
             // Create a temporary animal object with only AnimalID set
-            Animal animal = new Animal(animalID, "", "", 0, "", 0, "", false, "", DateTime.Now);
+            Animal animal = new Animal("", "", 0, "", 0, "", false, "", DateTime.Now);
 
             // Call DeleteAnimal method of AnimalManager to delete the animal
             animalManager.DeleteAnimal(animal);

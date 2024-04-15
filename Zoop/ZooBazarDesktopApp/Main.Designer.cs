@@ -91,9 +91,9 @@
             label10 = new Label();
             tabDB = new TabPage();
             dgvImages = new DataGridView();
+            Image = new DataGridViewImageColumn();
             btnDeleteImage = new Button();
             btnAddImage = new Button();
-            Image = new DataGridViewImageColumn();
             tabControl1.SuspendLayout();
             tabAnimal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewAnimals).BeginInit();
@@ -733,6 +733,13 @@
             dgvImages.CellClick += dgvImages_CellContentClick;
             dgvImages.CellContentClick += dgvImages_CellContentClick;
             // 
+            // Image
+            // 
+            Image.HeaderText = "Column1";
+            Image.MinimumWidth = 6;
+            Image.Name = "Image";
+            Image.Width = 125;
+            // 
             // btnDeleteImage
             // 
             btnDeleteImage.Location = new Point(151, 18);
@@ -753,18 +760,11 @@
             btnAddImage.UseVisualStyleBackColor = true;
             btnAddImage.Click += btnAddImage_Click;
             // 
-            // Image
-            // 
-            Image.HeaderText = "Column1";
-            Image.MinimumWidth = 6;
-            Image.Name = "Image";
-            Image.Width = 125;
-            // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1139, 659);
+            ClientSize = new Size(1139, 682);
             Controls.Add(tabControl1);
             Name = "Main";
             Text = "ZooBazar";

@@ -1,6 +1,6 @@
-﻿namespace ZooBazarDesktopApp.UserControls
+﻿namespace MyLittleHousing
 {
-    partial class Dashboard
+    partial class UserControlBlank
     {
         /// <summary> 
         /// Required designer variable.
@@ -30,13 +30,12 @@
         {
             SuspendLayout();
             // 
-            // Dashboard
+            // UserControlBlank
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Location = new Point(140, 40);
-            Name = "Dashboard";
-            Size = new Size(1151, 840);
+            Name = "UserControlBlank";
+            Size = new Size(150, 87);
             ResumeLayout(false);
         }
 

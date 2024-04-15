@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Data.SqlClient;
-using System.Collections.Generic;
+﻿using Microsoft.Data.SqlClient;
+
 
 namespace DataAccessLayer
 {
@@ -14,7 +9,7 @@ namespace DataAccessLayer
 
         public void AddAnimal(string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime)
         {
-            string query = "INSERT INTO Animals (Name, Species, Age, Gender, Weight, Color, IsSick, Location, LastFeedTime) VALUES (@Name, @Species, @Age, @Gender, @Weight, @Color, @IsSick, @Location, @LastFeedTime)";
+            string query = "INSERT INTO Animal (Name, Species, Age, Gender, Weight, Color, IsSick, Location, LastFeedTime) VALUES (@Name, @Species, @Age, @Gender, @Weight, @Color, @IsSick, @Location, @LastFeedTime)";
             using (SqlConnection connection = dbManager.GetConnection())
             {
                 using (SqlCommand command = new SqlCommand(query, connection))
@@ -38,7 +33,7 @@ namespace DataAccessLayer
         public List<IDictionary<string, object>> GetAllAnimals()
         {
             List<IDictionary<string, object>> animals = new List<IDictionary<string, object>>();
-            string query = "SELECT * FROM Animals";
+            string query = "SELECT * FROM Animal";
 
             try
             {
@@ -72,7 +67,7 @@ namespace DataAccessLayer
 
         public void DeleteAnimal(int animalID)
         {
-            string query = "DELETE FROM Animals WHERE AnimalID = @AnimalID";
+            string query = "DELETE FROM Animal WHERE AnimalID = @AnimalID";
 
             try
             {
@@ -94,9 +89,9 @@ namespace DataAccessLayer
             }
         }
 
-        public void UpdateAnimal(int animalID, string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime)
+        public void UpdateAnimal(string name, string species, int age, string gender, decimal weight, string color, bool isSick, string location, DateTime lastFeedTime)
         {
-            string query = "UPDATE Animals SET Name = @Name, Species = @Species, Age = @Age, Gender = @Gender, Weight = @Weight, Color = @Color, IsSick = @IsSick, Location = @Location, LastFeedTime = @LastFeedTime WHERE AnimalID = @AnimalID";
+            string query = "UPDATE Animal SET Age = @Age, Gender = @Gender, Weight = @Weight, Color = @Color, IsSick = @IsSick, Location = @Location, LastFeedTime = @LastFeedTime WHERE Name = @Name AND Species = @Species";
 
             try
             {
@@ -113,7 +108,6 @@ namespace DataAccessLayer
                         command.Parameters.AddWithValue("@IsSick", isSick);
                         command.Parameters.AddWithValue("@Location", location);
                         command.Parameters.AddWithValue("@LastFeedTime", lastFeedTime);
-                        command.Parameters.AddWithValue("@AnimalID", animalID);
 
                         connection.Open();
                         command.ExecuteNonQuery();
@@ -126,5 +120,6 @@ namespace DataAccessLayer
                 throw;
             }
         }
+
     }
 }
