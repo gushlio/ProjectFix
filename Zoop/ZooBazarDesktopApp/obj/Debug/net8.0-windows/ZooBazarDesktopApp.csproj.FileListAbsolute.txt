@@ -481,4 +481,4 @@ C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\
 D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.Calendar.resources
 D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlBlank.resources
 D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlDays.resources
-D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.TasksUC.resources
+D:\FONTYS\SEM 2\Group project\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.TaskUC.resources

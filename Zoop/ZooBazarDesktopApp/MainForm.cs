@@ -23,7 +23,7 @@ namespace ZooBazarDesktopApp
         {
             InitializeComponent();
             this.userControls = new List<UserControl>()
-                {new Dashboard(), new AnimalsUC(), new EmployeesUC(), new TicketsUC(), new MapUC(), new TasksUC(), new Calendar() };
+                {new Dashboard(), new AnimalsUC(), new EmployeesUC(), new TicketsUC(), new MapUC(), new TaskUC(), new Calendar() };
             AddControlsToTheForm(this.userControls);
         }
 
