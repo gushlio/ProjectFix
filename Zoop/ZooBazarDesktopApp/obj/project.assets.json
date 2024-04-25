@@ -2056,23 +2056,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\ilyas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FONTYS\\SEM 2\\Group project\\zoop\\Zoop\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
+      "projectUniqueName": "C:\\Users\\ilyas\\zoop5\\Zoop\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
       "projectName": "ZooBazarDesktopApp",
-      "projectPath": "D:\\FONTYS\\SEM 2\\Group project\\zoop\\Zoop\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\FONTYS\\SEM 2\\Group project\\zoop\\Zoop\\ZooBazarDesktopApp\\obj\\",
+      "projectPath": "C:\\Users\\ilyas\\zoop5\\Zoop\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
+      "packagesPath": "C:\\Users\\ilyas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ilyas\\zoop5\\Zoop\\ZooBazarDesktopApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2088,8 +2088,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\FONTYS\\SEM 2\\Group project\\zoop\\Zoop\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\FONTYS\\SEM 2\\Group project\\zoop\\Zoop\\Domain\\Domain.csproj"
+            "C:\\Users\\ilyas\\zoop5\\Zoop\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\ilyas\\zoop5\\Zoop\\Domain\\Domain.csproj"
             }
           }
         }
@@ -2098,6 +2098,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2128,7 +2133,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

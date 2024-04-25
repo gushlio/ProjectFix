@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooBazarDesktopApp", "ZooBazarDesktopApp\ZooBazarDesktopApp.csproj", "{B80DCE4C-8FDE-4882-83A6-AEC0AA635DA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZooBazarDesktopApp", "ZooBazarDesktopApp\ZooBazarDesktopApp.csproj", "{B80DCE4C-8FDE-4882-83A6-AEC0AA635DA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooBazarWEB", "ZooBazarWEB\ZooBazarWEB.csproj", "{7110AA21-BE45-496B-89EF-F641B07D6264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZooBazarWEB", "ZooBazarWEB\ZooBazarWEB.csproj", "{7110AA21-BE45-496B-89EF-F641B07D6264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{34EA1092-B34A-42E2-AE85-0CC247AA94DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{34EA1092-B34A-42E2-AE85-0CC247AA94DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{AD3C9832-E47B-452A-A7F6-443C57DB62B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{AD3C9832-E47B-452A-A7F6-443C57DB62B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

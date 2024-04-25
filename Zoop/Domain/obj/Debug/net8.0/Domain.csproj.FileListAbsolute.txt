@@ -163,3 +163,18 @@ C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\Domai
 C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ilyas\zoop5\Zoop\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ilyas\zoop5\Zoop\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ilyas\zoop5\Zoop\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ilyas\zoop5\Zoop\Domain\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\ilyas\zoop5\Zoop\Domain\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\ilyas\zoop5\Zoop\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\ilyas\zoop5\Zoop\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilyas\zoop5\Zoop\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ilyas\zoop5\Zoop\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ilyas\zoop5\Zoop\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ilyas\zoop5\Zoop\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+C:\Users\ilyas\zoop5\Zoop\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ilyas\zoop5\Zoop\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ilyas\zoop5\Zoop\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ilyas\zoop5\Zoop\Domain\obj\Debug\net8.0\ref\Domain.dll
