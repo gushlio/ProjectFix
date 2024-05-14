@@ -10,7 +10,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 // Register UserDB with its dependencies
-builder.Services.AddScoped<UserDB>(); // Assuming UserDB requires no additional configuration
+builder.Services.AddScoped<UserDB>();// Assuming UserDB requires no additional configuration
+
+builder.Services.AddSession();
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
@@ -25,6 +28,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapRazorPages();
 

@@ -3,50 +3,53 @@ using DataAccessLayer.DTO;
 using Domain.Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 
 namespace ZooBazarWEB.Pages
 {
     public class LoginModel : PageModel
     {
         private readonly UserDB _userDB ;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public LoginModel(UserDB userDB)
+        public LoginModel(UserDB userDB, IHttpContextAccessor httpContextAccessor)
         {
             _userDB = userDB;
-
-        }
-        private UserDTO MapToDTO(User user)
-        {
-            return new UserDTO
-            {
-                Username = user.Username,
-                Password = user.Password
-                // Map other properties as needed...
-            };
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public void OnGet()
         {
         }
-        public IActionResult OnPost(string username, string password)
+        public async Task<IActionResult> OnPostAsync(string username, string password)
         {
             if (!_userDB.IsUsernameTaken(username))
             {
-                // Username doesn't exist
+                //username doesn't exist
                 ModelState.AddModelError("InvalidLogin", "Username is not known.");
                 return Page();
             }
 
             if (!_userDB.IsPasswordCorrect(username, password))
             {
-                // Password is incorrect
+                // pass doesn't exist
                 ModelState.AddModelError("InvalidLogin", "Password is incorrect.");
                 return Page();
             }
 
+            var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, username),
+        };
+            var claimsIdentity = new ClaimsIdentity(claims, "login");
 
-
-            // Redirect to the catalogue page
+            var authProperties = new AuthenticationProperties
+            {
+            };
+            var principal = new ClaimsPrincipal(claimsIdentity);
+            await HttpContext.SignInAsync(principal, authProperties);
             return RedirectToPage("/Index");
         }
     }

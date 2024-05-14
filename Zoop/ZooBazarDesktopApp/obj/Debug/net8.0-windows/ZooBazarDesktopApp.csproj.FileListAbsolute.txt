@@ -559,3 +559,7 @@ C:\Users\ilyas\zoop5\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\refint\Zoo
 C:\Users\ilyas\zoop5\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.pdb
 C:\Users\ilyas\zoop5\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.genruntimeconfig.cache
 C:\Users\ilyas\zoop5\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ref\ZooBazarDesktopApp.dll
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.Calendar.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.TasksUC.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlBlank.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoop\Zoop\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlDays.resources

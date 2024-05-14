@@ -26,29 +26,28 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Administration">Admin</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Tickets">Tickets</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/AnimalCare">Zoo_Vet</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Home_Users">Home_Users</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Landing-page">Home_Users</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Login">LoginPage</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Reports">Reports</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Task">Tasks</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/TicketVender">Tickets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/ZooMap">ZooMap</a>
-                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link text-dark">Welcome, @User.Identity.Name!</span>
+                            </li>
+                            <li class="nav-item">
+                                <form asp-page="/Logout" method="post" id="logoutForm">
+                                    <button type="submit" class="nav-link btn btn-link text-dark" style="padding: 0;">Log out</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Login">Login</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>

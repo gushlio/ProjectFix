@@ -10,5 +10,6 @@ namespace DataAccessLayer.DTO
     {
         public string Username { get; set; }
         public string Password { get; set; }
+       
     }
 }
