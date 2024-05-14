@@ -1,6 +1,8 @@
 ﻿using DataAccessLayer;
 using Domain.Manager;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace TopTierReviewWeb
@@ -18,6 +20,15 @@ namespace TopTierReviewWeb
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddRazorPages(); 
+
+            services.AddScoped<UserDB>();
+            services.AddScoped<ImagesDB>(); 
+            services.AddSingleton<ImageManager>();
+
+            services.AddSession();
+            services.AddHttpContextAccessor();
+
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
@@ -25,15 +36,6 @@ namespace TopTierReviewWeb
                 options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
             })
             .AddCookie();
-
-            services.AddRazorPages(); // Add Razor Pages support
-
-            // Register UserManager with its dependencies
-            services.AddScoped<ImagesDB>(); // Assuming UserDAL requires no additional configuration
-            services.AddSingleton<ImageManager>();
-            services.AddSession();
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,7 +63,7 @@ namespace TopTierReviewWeb
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages(); // Map Razor Pages
+                endpoints.MapRazorPages(); 
             });
         }
     }

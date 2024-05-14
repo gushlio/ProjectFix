@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -26,27 +27,43 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Tickets">Tickets</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Administration">Admin</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Home_Users">Home_Users</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/AnimalCare">Zoo_Vet</a>
                         </li>
-                        @if (User.Identity.IsAuthenticated)
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Landing-page">Home_Users</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Reports">Reports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Task">Tasks</a>
+                        </li>
+                        @if (Context.Session.GetString("username") != null)
                         {
+                            <form method="post" asp-page-handler="Logout" asp-page="/Index" class="form-inline">
+                                <button type="submit" class="btn btn-link nav-link text-dark">Logout</button>
+                            </form>
+
                             <li class="nav-item">
-                                <span class="nav-link text-dark">Welcome, @User.Identity.Name!</span>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Reports">Reports</a>
                             </li>
+
                             <li class="nav-item">
-                                <form asp-page="/Logout" method="post" id="logoutForm">
-                                    <button type="submit" class="nav-link btn btn-link text-dark" style="padding: 0;">Log out</button>
-                                </form>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/TicketVender">Tickets</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/ZooMap">ZooMap</a>
                             </li>
                         }
                         else
                         {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Login">Login</a>
-                            </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/sub-page/Login">Login</a>
+                          </li>
                         }
                     </ul>
                 </div>

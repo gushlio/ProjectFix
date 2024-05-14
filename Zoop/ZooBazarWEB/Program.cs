@@ -2,7 +2,9 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using DataAccessLayer; // Import DataAccessLayer namespace
+using DataAccessLayer;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;// Import DataAccessLayer namespace
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +29,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication(); 
 app.UseAuthorization();
 
 app.UseSession();
