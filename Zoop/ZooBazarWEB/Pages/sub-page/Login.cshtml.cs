@@ -12,7 +12,7 @@ namespace ZooBazarWEB.Pages
 {
     public class LoginModel : PageModel
     {
-        private readonly UserDB _userDB ;
+        private readonly UserDB _userDB;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
         public LoginModel(UserDB userDB, IHttpContextAccessor httpContextAccessor)
@@ -38,13 +38,18 @@ namespace ZooBazarWEB.Pages
                 return Page();
             }
 
+            // Fetch user's role from the database
+            string role = _userDB.GetUserRole(username);
+
+            // Store user's role in session
+            _httpContextAccessor.HttpContext.Session.SetString("role", role);
             _httpContextAccessor.HttpContext.Session.SetString("username", username);
+
             return RedirectToPage("/Index");
         }
 
         public IActionResult OnPostLogout()
         {
-            
             _httpContextAccessor.HttpContext.Session.Clear();
             return RedirectToPage("/Index");
         }

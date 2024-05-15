@@ -15,7 +15,7 @@ namespace DataAccessLayer
             string saltBase64 = Convert.ToBase64String(salt);
             string hashedPassword = HashPassword(userDTO.Password, salt);
 
-            string query = "INSERT INTO Users (Username, PasswordHash, Salt, RegistrationDate) VALUES (@Username, @PasswordHash, @Salt, @RegistrationDate)";
+            string query = "INSERT INTO Users (Username, PasswordHash, Salt, RegistrationDate, Role) VALUES (@Username, @PasswordHash, @Salt, @RegistrationDate, @Role)";
             using (SqlConnection connection = dbManager.GetConnection())
             {
                 using (SqlCommand command = new SqlCommand(query, connection))
@@ -24,11 +24,36 @@ namespace DataAccessLayer
                     command.Parameters.AddWithValue("@PasswordHash", hashedPassword);
                     command.Parameters.AddWithValue("@Salt", saltBase64);
                     command.Parameters.AddWithValue("@RegistrationDate", DateTime.Now); // Use the current date and time
+                    command.Parameters.AddWithValue("@Role", "Customer"); // Assign the role "Customer"
 
                     connection.Open();
                     command.ExecuteNonQuery();
                 }
             }
+        }
+
+        public string GetUserRole(string username)
+        {
+            string role = null;
+            string query = "SELECT Role FROM Users WHERE Username = @Username";
+
+            using (SqlConnection connection =dbManager.GetConnection()) // Replace GetConnection() with your method to get a database connection
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Username", username);
+                    connection.Open();
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            role = reader["Role"].ToString();
+                        }
+                    }
+                }
+            }
+
+            return role;
         }
 
 

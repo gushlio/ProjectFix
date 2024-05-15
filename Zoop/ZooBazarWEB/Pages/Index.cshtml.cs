@@ -21,6 +21,7 @@ namespace ZooBazarWEB.Pages
         {
             // Clear username from session
             _httpContextAccessor.HttpContext.Session.Remove("username");
+            _httpContextAccessor.HttpContext.Session.Remove("role");
 
             // Redirect to the index page or any other page you want after logout
             return RedirectToPage("/Index");
