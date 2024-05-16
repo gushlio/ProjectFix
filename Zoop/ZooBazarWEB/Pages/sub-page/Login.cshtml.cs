@@ -38,10 +38,8 @@ namespace ZooBazarWEB.Pages
                 return Page();
             }
 
-            // Fetch user's role from the database
             string role = _userDB.GetUserRole(username);
 
-            // Store user's role in session
             _httpContextAccessor.HttpContext.Session.SetString("role", role);
             _httpContextAccessor.HttpContext.Session.SetString("username", username);
 

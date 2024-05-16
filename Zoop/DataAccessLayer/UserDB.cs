@@ -23,8 +23,8 @@ namespace DataAccessLayer
                     command.Parameters.AddWithValue("@Username", userDTO.Username);
                     command.Parameters.AddWithValue("@PasswordHash", hashedPassword);
                     command.Parameters.AddWithValue("@Salt", saltBase64);
-                    command.Parameters.AddWithValue("@RegistrationDate", DateTime.Now); // Use the current date and time
-                    command.Parameters.AddWithValue("@Role", "Customer"); // Assign the role "Customer"
+                    command.Parameters.AddWithValue("@RegistrationDate", DateTime.Now); 
+                    command.Parameters.AddWithValue("@Role", "Customer"); 
 
                     connection.Open();
                     command.ExecuteNonQuery();
@@ -37,7 +37,7 @@ namespace DataAccessLayer
             string role = null;
             string query = "SELECT Role FROM Users WHERE Username = @Username";
 
-            using (SqlConnection connection =dbManager.GetConnection()) // Replace GetConnection() with your method to get a database connection
+            using (SqlConnection connection =dbManager.GetConnection()) 
             {
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
