@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dylan\\Desktop\\group project\\Soup\\ZooBazar.V2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07299710-A369-4445-A12C-B1C605584DD0}|..\\..\\zoop-Animals_all_features\\zoop-Animals_all_features\\zoobazaar\\Domain\\Domain.csproj|c:\\users\\dylan\\desktop\\group project\\zoop-animals_all_features\\zoop-animals_all_features\\zoobazaar\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1918C349-ED19-4784-9D4E-610F4DC9FAA7}|..\\..\\zoop-Animals_all_features\\zoop-Animals_all_features\\zoobazaar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj|c:\\users\\dylan\\desktop\\group project\\zoop-animals_all_features\\zoop-animals_all_features\\zoobazaar\\zoobazardesktopapp\\zoobazardesktopapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a5174402-226b-48da-aa5c-91376ed45871}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ZooBazarDesktopApp",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\group project\\zoop-Animals_all_features\\zoop-Animals_all_features\\zoobazaar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
+              "RelativeDocumentMoniker": "..\\..\\zoop-Animals_all_features\\zoop-Animals_all_features\\zoobazaar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\group project\\zoop-Animals_all_features\\zoop-Animals_all_features\\zoobazaar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
+              "RelativeToolTip": "..\\..\\zoop-Animals_all_features\\zoop-Animals_all_features\\zoobazaar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-14T22:50:31.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Domain",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\group project\\zoop-Animals_all_features\\zoop-Animals_all_features\\zoobazaar\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "..\\..\\zoop-Animals_all_features\\zoop-Animals_all_features\\zoobazaar\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\group project\\zoop-Animals_all_features\\zoop-Animals_all_features\\zoobazaar\\Domain\\Domain.csproj",
+              "RelativeToolTip": "..\\..\\zoop-Animals_all_features\\zoop-Animals_all_features\\zoobazaar\\Domain\\Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-14T22:50:07.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
