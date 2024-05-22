@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\ZooBazarWEB\\ZooBazarWEB.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lachezar Mitov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lachezar Mitov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\ZooBazarWEB\\ZooBazarWEB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\ZooBazarWEB\\ZooBazarWEB.csproj",
+        "projectName": "ZooBazarWEB",
+        "projectPath": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\ZooBazarWEB\\ZooBazarWEB.csproj",
+        "packagesPath": "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\ZooBazarWEB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lachezar Mitov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Lachezar Mitov\\Desktop\\zoop-main\\ZooBazar.V2\\Zoobazar\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
