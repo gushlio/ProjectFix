@@ -1,0 +1,79 @@
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\ZooBazarDesktopApp.exe
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\ZooBazarDesktopApp.deps.json
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\ZooBazarDesktopApp.runtimeconfig.json
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\ZooBazarDesktopApp.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\ZooBazarDesktopApp.pdb
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\DataAccessLayer.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\Domain.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\Domain.pdb
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.csproj.AssemblyReference.cache
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\DesktopApp.AddEmployee.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Animal.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Main.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.MainForm.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Properties.Resources.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.Calendar.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.Dashboard.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\LibraryApplication.UserControls.EmployeesUC.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.TaskUC.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.TicketsUC.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlBlank.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlDays.resources
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.csproj.GenerateResource.cache
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.AssemblyInfoInputs.cache
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.AssemblyInfo.cs
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazar.9E13C409.Up2Date
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\refint\ZooBazarDesktopApp.dll
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.pdb
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.genruntimeconfig.cache
+C:\Users\Dylan\Desktop\group project\Soup\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ref\ZooBazarDesktopApp.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\ZooBazarDesktopApp.exe
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\ZooBazarDesktopApp.deps.json
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\ZooBazarDesktopApp.runtimeconfig.json
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\ZooBazarDesktopApp.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\ZooBazarDesktopApp.pdb
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\DataAccessLayer.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\Domain.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\Domain.pdb
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.csproj.AssemblyReference.cache
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\DesktopApp.AddEmployee.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Animal.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Main.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.MainForm.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Properties.Resources.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.Calendar.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.Dashboard.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\LibraryApplication.UserControls.EmployeesUC.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.TaskUC.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.TicketsUC.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlBlank.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlDays.resources
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.csproj.GenerateResource.cache
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.AssemblyInfoInputs.cache
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.AssemblyInfo.cs
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.csproj.CopyComplete
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\refint\ZooBazarDesktopApp.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.pdb
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.genruntimeconfig.cache
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ref\ZooBazarDesktopApp.dll
+C:\Users\Lachezar Mitov\Desktop\git Zoo\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Login.resources
