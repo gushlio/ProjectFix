@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Desktop\\git Zoo\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\Lachezar Mitov\\Desktop\\git Zoo\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lachezar Mitov\\Desktop\\git Zoo\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\obj\\",
+      "outputPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lachezar Mitov\\AppData\\Roaming\\NuGet\\NuGet.Config",

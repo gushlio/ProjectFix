@@ -29,13 +29,7 @@ namespace ZooBazarDesktopApp
 
             if (employeeManager.ValidateLogin(email, password))
             {
-                // Get job title
-                string jobTitle = employeeManager.GetJobTitle(email);
-
-                // Open MainForm and pass the job title
-                this.Hide();
-                MainForm mainForm = new MainForm(jobTitle);
-                mainForm.Show();
+                employeeManager.OpenForm(email);
             }
             else
             {

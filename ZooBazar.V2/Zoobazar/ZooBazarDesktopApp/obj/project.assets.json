@@ -511,11 +511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Desktop\\git Zoo\\ZooBazar.V2\\Zoobazar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
+      "projectUniqueName": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
       "projectName": "ZooBazarDesktopApp",
-      "projectPath": "C:\\Users\\Lachezar Mitov\\Desktop\\git Zoo\\ZooBazar.V2\\Zoobazar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
+      "projectPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
       "packagesPath": "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lachezar Mitov\\Desktop\\git Zoo\\ZooBazar.V2\\Zoobazar\\ZooBazarDesktopApp\\obj\\",
+      "outputPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\ZooBazarDesktopApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lachezar Mitov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -532,8 +532,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Lachezar Mitov\\Desktop\\git Zoo\\ZooBazar.V2\\Zoobazar\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Lachezar Mitov\\Desktop\\git Zoo\\ZooBazar.V2\\Zoobazar\\Domain\\Domain.csproj"
+            "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\Domain\\Domain.csproj"
             }
           }
         }

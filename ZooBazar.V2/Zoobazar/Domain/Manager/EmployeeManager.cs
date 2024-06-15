@@ -1,11 +1,25 @@
 ﻿using DataAccessLayer;
 using Domain.Entity;
+using Domain.Interfaces;
 
 namespace Domain.Manager
 {
     public class EmployeeManager
     {
-        private EmployeeDatabase employeeDatabase = new EmployeeDatabase();
+        private EmployeeDatabase employeeDatabase;
+        private IFormFactory _formFactory;
+
+        public EmployeeManager(EmployeeDatabase dataAccess, IFormFactory formFactory)
+        {
+            employeeDatabase = dataAccess;
+            _formFactory = formFactory;
+        }
+
+        public EmployeeManager()
+        {
+            employeeDatabase = new EmployeeDatabase();
+
+        }
 
         public void AddEmployee(Employee employee)
         {
@@ -46,6 +60,12 @@ namespace Domain.Manager
         public bool ValidateLogin(string email, string password)
         {
             return employeeDatabase.ValidateLogin(email, password);
+        }
+
+        public void OpenForm(string email)
+        {
+            string jobTitle = GetJobTitle(email);
+            _formFactory.OpenForm(jobTitle);
         }
 
         public string GetJobTitle(string email)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n2DUz5vNYdQuuGlk7SBgI9cSYNBvwqL2NzO3ZrfmsNwOFyUVRoG5FPg3MXl3zOGHEGs7gXbv5iSe6dU9WvHOkQ==",
+  "dgSpecHash": "zd3hPWBfqY0DiUapJuTcOmo5ueo5kw0wzPMOo+gVKiSB8RgjUPy94nlVOclt176kQD3ubDZGtDwgVFx18wKhCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lachezar Mitov\\Desktop\\git Zoo\\ZooBazar.V2\\Zoobazar\\ZooBazarWEB\\ZooBazarWEB.csproj",
+  "projectFilePath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\ZooBazarWEB\\ZooBazarWEB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
