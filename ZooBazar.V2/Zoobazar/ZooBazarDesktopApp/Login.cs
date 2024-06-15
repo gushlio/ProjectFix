@@ -16,10 +16,12 @@ namespace ZooBazarDesktopApp
     public partial class Login : Form
     {
         private EmployeeManager employeeManager;
-        public Login()
+
+        public Login(EmployeeManager _employeeManager)
         {
             InitializeComponent();
-            employeeManager = new EmployeeManager();
+            employeeManager = _employeeManager;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -30,6 +32,7 @@ namespace ZooBazarDesktopApp
             if (employeeManager.ValidateLogin(email, password))
             {
                 employeeManager.OpenForm(email);
+                this.Hide();
             }
             else
             {

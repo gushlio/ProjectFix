@@ -15,12 +15,6 @@ namespace Domain.Manager
             _formFactory = formFactory;
         }
 
-        public EmployeeManager()
-        {
-            employeeDatabase = new EmployeeDatabase();
-
-        }
-
         public void AddEmployee(Employee employee)
         {
             employeeDatabase.AddEmployee(employee.FirstName, employee.LastName, employee.EmailAddress, employee.Password, employee.Salary, employee.HireDate, employee.JobTitle);
@@ -65,6 +59,19 @@ namespace Domain.Manager
         public void OpenForm(string email)
         {
             string jobTitle = GetJobTitle(email);
+
+            if (jobTitle == null)
+            {
+                Console.WriteLine("Error: Job title is null for email " + email);
+                return;
+            }
+
+            if (_formFactory == null)
+            {
+                Console.WriteLine("Error: _formFactory is null");
+                return;
+            }
+
             _formFactory.OpenForm(jobTitle);
         }
 

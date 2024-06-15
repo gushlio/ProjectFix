@@ -8,13 +8,14 @@ namespace ZooBazarDesktopApp
 {
     public partial class Main : Form
     {
-        private EmployeeManager employeeManager = new EmployeeManager();
+        private EmployeeManager employeeManager;
         
 
-        public Main()
+        public Main(EmployeeManager _employeeManager)
         {
             InitializeComponent();
-            
+            employeeManager = _employeeManager;
+
             foreach (var title in Enum.GetValues(typeof(JobTitles)))
             {
                 cmbJobTitle.Items.Add(title);
@@ -26,7 +27,7 @@ namespace ZooBazarDesktopApp
         //employees
         private void btnAddEmployees_Click(object sender, EventArgs e)
         {
-            AddEmployee addEmployeeForm = new AddEmployee();
+            AddEmployee addEmployeeForm = new AddEmployee(employeeManager);
             addEmployeeForm.ShowDialog();
             RefreshEmployeeListData();
         }

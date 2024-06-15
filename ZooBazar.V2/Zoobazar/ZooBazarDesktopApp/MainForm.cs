@@ -10,35 +10,29 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ZooBazarDesktopApp.UserControls;
+using Domain.Manager;
+using DataAccessLayer;
+using ZooBazarDesktopApp.Classes;
+using Domain.Interfaces;
 
 namespace ZooBazarDesktopApp
 {
     public partial class MainForm : Form
     {
         private List<UserControl> userControls;
-        private string currentUserJobTitle;
+        private EmployeeManager employeeManager;
 
         private Color btnSelectedColor = Color.FromArgb(53, 68, 77);
         private Color btnDefaultColor = Color.FromArgb(0, 0, 0);
-        public MainForm(string jobTitle)
+        public MainForm()
         {
             InitializeComponent();
-
-            currentUserJobTitle = jobTitle;
-
-            
-            if (currentUserJobTitle == "AdministrativeStaff")
-            {
-                btnStaff.Visible = true;
-            }
-            else
-            {
-                btnStaff.Visible = false; 
-            }
-
+            employeeManager = new EmployeeManager(new EmployeeDatabase(), new FormOpener());
             this.userControls = new List<UserControl>()
-                {new Dashboard(),  new EmployeesUC(), new TicketsUC(),  new TaskUC(), new Calendar() };
+
+                {new Dashboard(),  new EmployeesUC(employeeManager), new TicketsUC(),  new TaskUC(), new Calendar() };
             AddControlsToTheForm(this.userControls);
+            this.WindowState = FormWindowState.Normal;
         }
 
         //Code that makes the form moveable

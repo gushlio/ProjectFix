@@ -16,11 +16,13 @@ namespace DesktopApp
 {
     public partial class AddEmployee : Form
     {
-  
- 
-        public AddEmployee()
+        EmployeeManager employeeManager;
+
+
+        public AddEmployee(EmployeeManager _employeeManager)
         {
             InitializeComponent();
+            employeeManager = _employeeManager;
 
             foreach (var title in Enum.GetValues(typeof(JobTitles)))
             {
@@ -56,10 +58,10 @@ namespace DesktopApp
           
                 Employee newEmployee = new Employee(0, firstName, lastName, emailAddress, password, salary, hireDate, jobTitle);
 
-                EmployeeManager employeeManager = new EmployeeManager();
                 employeeManager.AddEmployee(newEmployee);
                 MessageBox.Show("Employee added successfully.");
                 ClearForm();
+                this.Hide();
             }
 
         }

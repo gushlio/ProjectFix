@@ -15,11 +15,11 @@ namespace LibraryApplication.UserControls
 {
     public partial class EmployeesUC : UserControl
     {
-        private EmployeeManager employeeManager = new EmployeeManager();
-        public EmployeesUC()
+        private EmployeeManager employeeManager;
+        public EmployeesUC(EmployeeManager _employeeManager)
         {
             this.InitializeComponent();
-
+            employeeManager = _employeeManager;
             foreach (var title in Enum.GetValues(typeof(JobTitles)))
             {
                 cmbJobTitle.Items.Add(title);
@@ -97,7 +97,7 @@ namespace LibraryApplication.UserControls
         private void btnAddEmployee_Click(object sender, EventArgs e)
         {
 
-            AddEmployee addEmployeeForm = new AddEmployee();
+            AddEmployee addEmployeeForm = new AddEmployee(employeeManager);
             addEmployeeForm.ShowDialog();
             RefreshEmployeeListData();
         }
