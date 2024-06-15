@@ -31,6 +31,8 @@ namespace ZooBazarDesktopApp
 
             if (employeeManager.ValidateLogin(email, password))
             {
+                Employee loggedInEmployee = employeeManager.GetEmployeeByEmail(email);
+                employeeManager.SetLoggedInEmployee(loggedInEmployee);
                 employeeManager.OpenForm(email);
                 this.Hide();
             }

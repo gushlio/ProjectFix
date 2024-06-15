@@ -27,7 +27,7 @@ namespace ZooBazarDesktopApp
         public MainForm()
         {
             InitializeComponent();
-            employeeManager = new EmployeeManager(new EmployeeDatabase(), new FormOpener());
+            /*employeeManager = new EmployeeManager(new EmployeeDatabase(), new FormOpener());*/
             this.userControls = new List<UserControl>()
 
                 {new Dashboard(),  new EmployeesUC(employeeManager), new TicketsUC(),  new TaskUC(), new Calendar() };

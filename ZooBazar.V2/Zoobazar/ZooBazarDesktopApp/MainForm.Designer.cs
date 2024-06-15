@@ -32,8 +32,8 @@
             panelQuickAccess = new Panel();
             button2 = new Button();
             button1 = new Button();
-            btnReport = new Button();
             lblZooBazar = new Label();
+            btnReport = new Button();
             btnDashboard = new Button();
             btnAnimals = new Button();
             btnStaff = new Button();
@@ -57,8 +57,9 @@
             panelQuickAccess.Controls.Add(btnTickets);
             panelQuickAccess.Controls.Add(btnAreas);
             panelQuickAccess.Location = new Point(2, -1);
+            panelQuickAccess.Margin = new Padding(3, 2, 3, 2);
             panelQuickAccess.Name = "panelQuickAccess";
-            panelQuickAccess.Size = new Size(181, 1102);
+            panelQuickAccess.Size = new Size(158, 826);
             panelQuickAccess.TabIndex = 2;
             // 
             // button2
@@ -71,9 +72,10 @@
             button2.ForeColor = Color.White;
             button2.Image = (Image)resources.GetObject("button2.Image");
             button2.ImageAlign = ContentAlignment.TopCenter;
-            button2.Location = new Point(7, 826);
+            button2.Location = new Point(6, 620);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(121, 85);
+            button2.Size = new Size(106, 64);
             button2.TabIndex = 8;
             button2.Text = "Tasks";
             button2.TextAlign = ContentAlignment.BottomCenter;
@@ -90,14 +92,28 @@
             button1.ForeColor = Color.White;
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.TopCenter;
-            button1.Location = new Point(7, 940);
+            button1.Location = new Point(6, 705);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(121, 85);
+            button1.Size = new Size(106, 64);
             button1.TabIndex = 7;
             button1.Text = "Calendar";
             button1.TextAlign = ContentAlignment.BottomCenter;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // lblZooBazar
+            // 
+            lblZooBazar.AutoSize = true;
+            lblZooBazar.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            lblZooBazar.ForeColor = Color.White;
+            lblZooBazar.Location = new Point(53, 16);
+            lblZooBazar.Name = "lblZooBazar";
+            lblZooBazar.Size = new Size(95, 74);
+            lblZooBazar.TabIndex = 0;
+            lblZooBazar.Text = "Zoo\r\n Bazar";
+            lblZooBazar.TextAlign = ContentAlignment.MiddleCenter;
+            lblZooBazar.Click += lblQuickAccess_Click;
             // 
             // btnReport
             // 
@@ -109,26 +125,14 @@
             btnReport.ForeColor = Color.White;
             btnReport.Image = (Image)resources.GetObject("btnReport.Image");
             btnReport.ImageAlign = ContentAlignment.TopCenter;
-            btnReport.Location = new Point(7, 714);
+            btnReport.Location = new Point(6, 536);
+            btnReport.Margin = new Padding(3, 2, 3, 2);
             btnReport.Name = "btnReport";
-            btnReport.Size = new Size(121, 85);
+            btnReport.Size = new Size(106, 64);
             btnReport.TabIndex = 6;
             btnReport.Text = "Report";
             btnReport.TextAlign = ContentAlignment.BottomCenter;
             btnReport.UseVisualStyleBackColor = true;
-            // 
-            // lblZooBazar
-            // 
-            lblZooBazar.AutoSize = true;
-            lblZooBazar.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            lblZooBazar.ForeColor = Color.White;
-            lblZooBazar.Location = new Point(61, 22);
-            lblZooBazar.Name = "lblZooBazar";
-            lblZooBazar.Size = new Size(117, 92);
-            lblZooBazar.TabIndex = 0;
-            lblZooBazar.Text = "Zoo\r\n Bazar";
-            lblZooBazar.TextAlign = ContentAlignment.MiddleCenter;
-            lblZooBazar.Click += lblQuickAccess_Click;
             // 
             // btnDashboard
             // 
@@ -140,9 +144,10 @@
             btnDashboard.ForeColor = Color.White;
             btnDashboard.Image = (Image)resources.GetObject("btnDashboard.Image");
             btnDashboard.ImageAlign = ContentAlignment.TopCenter;
-            btnDashboard.Location = new Point(7, 117);
+            btnDashboard.Location = new Point(6, 88);
+            btnDashboard.Margin = new Padding(3, 2, 3, 2);
             btnDashboard.Name = "btnDashboard";
-            btnDashboard.Size = new Size(121, 85);
+            btnDashboard.Size = new Size(106, 64);
             btnDashboard.TabIndex = 1;
             btnDashboard.Text = "Dashboard";
             btnDashboard.TextAlign = ContentAlignment.BottomCenter;
@@ -159,9 +164,10 @@
             btnAnimals.ForeColor = Color.White;
             btnAnimals.Image = (Image)resources.GetObject("btnAnimals.Image");
             btnAnimals.ImageAlign = ContentAlignment.TopCenter;
-            btnAnimals.Location = new Point(3, 236);
+            btnAnimals.Location = new Point(3, 177);
+            btnAnimals.Margin = new Padding(3, 2, 3, 2);
             btnAnimals.Name = "btnAnimals";
-            btnAnimals.Size = new Size(125, 100);
+            btnAnimals.Size = new Size(109, 75);
             btnAnimals.TabIndex = 2;
             btnAnimals.Text = "Animals";
             btnAnimals.TextAlign = ContentAlignment.BottomCenter;
@@ -178,9 +184,10 @@
             btnStaff.ForeColor = Color.White;
             btnStaff.Image = (Image)resources.GetObject("btnStaff.Image");
             btnStaff.ImageAlign = ContentAlignment.TopCenter;
-            btnStaff.Location = new Point(3, 369);
+            btnStaff.Location = new Point(3, 277);
+            btnStaff.Margin = new Padding(3, 2, 3, 2);
             btnStaff.Name = "btnStaff";
-            btnStaff.Size = new Size(125, 85);
+            btnStaff.Size = new Size(109, 64);
             btnStaff.TabIndex = 3;
             btnStaff.Text = "Staff";
             btnStaff.TextAlign = ContentAlignment.BottomCenter;
@@ -197,9 +204,10 @@
             btnTickets.ForeColor = Color.White;
             btnTickets.Image = (Image)resources.GetObject("btnTickets.Image");
             btnTickets.ImageAlign = ContentAlignment.TopCenter;
-            btnTickets.Location = new Point(0, 481);
+            btnTickets.Location = new Point(0, 361);
+            btnTickets.Margin = new Padding(3, 2, 3, 2);
             btnTickets.Name = "btnTickets";
-            btnTickets.Size = new Size(128, 85);
+            btnTickets.Size = new Size(112, 64);
             btnTickets.TabIndex = 4;
             btnTickets.Text = "Tickets";
             btnTickets.TextAlign = ContentAlignment.BottomCenter;
@@ -216,9 +224,10 @@
             btnAreas.ForeColor = Color.White;
             btnAreas.Image = (Image)resources.GetObject("btnAreas.Image");
             btnAreas.ImageAlign = ContentAlignment.TopCenter;
-            btnAreas.Location = new Point(0, 596);
+            btnAreas.Location = new Point(0, 447);
+            btnAreas.Margin = new Padding(3, 2, 3, 2);
             btnAreas.Name = "btnAreas";
-            btnAreas.Size = new Size(128, 85);
+            btnAreas.Size = new Size(112, 64);
             btnAreas.TabIndex = 5;
             btnAreas.Text = "Map";
             btnAreas.TextAlign = ContentAlignment.BottomCenter;
@@ -234,9 +243,10 @@
             btnClose.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, 204);
             btnClose.ForeColor = Color.Black;
             btnClose.ImageAlign = ContentAlignment.TopCenter;
-            btnClose.Location = new Point(1875, 5);
+            btnClose.Location = new Point(1641, 4);
+            btnClose.Margin = new Padding(3, 2, 3, 2);
             btnClose.Name = "btnClose";
-            btnClose.Size = new Size(42, 49);
+            btnClose.Size = new Size(37, 37);
             btnClose.TabIndex = 3;
             btnClose.Text = "X";
             btnClose.TextAlign = ContentAlignment.BottomCenter;
@@ -245,15 +255,16 @@
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.White;
-            ClientSize = new Size(1920, 1055);
+            ClientSize = new Size(1680, 791);
             ControlBox = false;
             Controls.Add(btnClose);
             Controls.Add(panelQuickAccess);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "MainForm";
             Text = "MainForm";
             WindowState = FormWindowState.Maximized;

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GJFpRNxXpaJpmY7gWPvWdkyZ+YvFWQbtuJVP2oFON/TbboI8Sp/5Ir+24xFO+J3taN0h+JHEoYOYCzgzh/qHaw==",
+  "dgSpecHash": "99+FsD5l+UdFCHFFskFO6t4coAnLBq5YWlTpUqXbXe3Jpml3ip0toHA6H7yBdfIiN0YUy4KUwtSrEwi5rY1H9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

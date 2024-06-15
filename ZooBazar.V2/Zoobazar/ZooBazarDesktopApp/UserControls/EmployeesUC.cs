@@ -19,7 +19,7 @@ namespace LibraryApplication.UserControls
         public EmployeesUC(EmployeeManager _employeeManager)
         {
             this.InitializeComponent();
-            employeeManager = _employeeManager;
+            employeeManager = new EmployeeManager();
             foreach (var title in Enum.GetValues(typeof(JobTitles)))
             {
                 cmbJobTitle.Items.Add(title);
@@ -43,7 +43,7 @@ namespace LibraryApplication.UserControls
         private void RefreshEmployeeListData()
         {
 
-            List<Employee> employees = employeeManager.GetAllEmployees();
+            List<Employee> employees = employeeManager.LoadEmployees();
             if (employees != null)
             {
 
@@ -81,7 +81,7 @@ namespace LibraryApplication.UserControls
             string newJobTitle = cmbJobTitle.SelectedItem.ToString();
 
 
-            Employee updatedEmployee = new Employee(employeeId, newFirstName, newLastName, newEmail, newPassword, newSalary, newHireDate, newJobTitle);
+            /*Employee updatedEmployee = new Employee(employeeId, newFirstName, newLastName, newEmail, newPassword, newSalary, newHireDate, newJobTitle);*/
 
 
             employeeManager.UpdateEmployee(updatedEmployee);

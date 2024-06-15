@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Interfaces;
+using Domain.Manager;
 
 namespace ZooBazarDesktopApp.Classes
 {
     public class FormOpener : IFormFactory
     {
+        public EmployeeManager emp;
         public void OpenForm(string jobTitle)
         {
             Form form = null;
@@ -19,7 +21,7 @@ namespace ZooBazarDesktopApp.Classes
                     form = new Animal();
                     break;
                 case "Zookeeper":
-                    form = new MainForm();
+                    form = new ZookeeperForm(emp);
                     break;
                 case "AdministrativeStaff":
                     form = new MainForm();

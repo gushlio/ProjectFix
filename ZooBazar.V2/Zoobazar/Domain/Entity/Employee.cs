@@ -8,17 +8,16 @@ namespace Domain.Entity
 {
     public class Employee : User
     {
-        public double Salary { get; set; }
-        public DateTime HireDate { get; set; }
-        public string JobTitle { get; set; }
+        public Contract Contract { get; set; }
+        public DateTime Birthday { get; set; }
+        public string ContactInfo { get; set; }
 
         public Employee(int id, string firstName, string lastName, string emailAddress, string password,
-                        double salary, DateTime hireDate, string jobTitle)
-            : base(id, firstName, lastName, emailAddress, password)
+                    DateTime birthday, string contactInfo)
+        : base(id, firstName, lastName, emailAddress, password)
         {
-            Salary = salary;
-            HireDate = hireDate;
-            JobTitle = jobTitle;
+            Birthday = birthday;
+            ContactInfo = contactInfo;
         }
     }
 }

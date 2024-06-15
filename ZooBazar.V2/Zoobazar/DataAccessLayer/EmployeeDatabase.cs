@@ -9,7 +9,7 @@ namespace DataAccessLayer
     {
         private DatabaseConnection dbManager = new DatabaseConnection();
 
-        public void AddEmployee(string firstName, string lastName, string emailAddress, string password, double salary, DateTime hireDate, string jobTitle)
+        public void AddEmployee(string firstName, string lastName, string emailAddress, string password, DateTime birthday, string contactInfo)
         {
             // generates salt
             byte[] saltBytes = new byte[16];
@@ -22,7 +22,7 @@ namespace DataAccessLayer
      
             string hashedPassword = HashPassword(password, salt);
 
-            string query = "INSERT INTO Employees (FirstName, LastName, EmailAddress, Password, Salt, Salary, HireDate, JobTitle) VALUES (@FirstName, @LastName, @EmailAddress, @Password, @Salt, @Salary, @HireDate, @JobTitle)";
+            string query = "INSERT INTO NewEmployees (FirstName, LastName, EmailAddress, Password, Salt, Salary, HireDate, JobTitle) VALUES (@FirstName, @LastName, @EmailAddress, @Password, @Salt, @Salary, @HireDate, @JobTitle)";
             using (SqlConnection connection = dbManager.GetConnection())
             {
                 using (SqlCommand command = new SqlCommand(query, connection))
@@ -32,9 +32,8 @@ namespace DataAccessLayer
                     command.Parameters.AddWithValue("@EmailAddress", emailAddress);
                     command.Parameters.AddWithValue("@Password", hashedPassword);
                     command.Parameters.AddWithValue("@Salt", salt);
-                    command.Parameters.AddWithValue("@Salary", salary);
-                    command.Parameters.AddWithValue("@HireDate", hireDate);
-                    command.Parameters.AddWithValue("@JobTitle", jobTitle);
+                    command.Parameters.AddWithValue("@Birthday", birthday);
+                    command.Parameters.AddWithValue("@ContactInfo", contactInfo);
 
                     connection.Open();
                     command.ExecuteNonQuery();
@@ -53,7 +52,7 @@ namespace DataAccessLayer
         public List<IDictionary<string, object>> GetAllEmployees()
         {
             List<IDictionary<string, object>> employees = new List<IDictionary<string, object>>();
-            string query = "SELECT * FROM Employees";
+            string query = "SELECT * FROM NewEmployees";
 
             try
             {
@@ -85,9 +84,40 @@ namespace DataAccessLayer
 
             return employees;
         }
+
+        public List<EmployeeDTO> LoadEmployees()
+        {
+            List<EmployeeDTO> employees = new List<EmployeeDTO>();
+
+            using (SqlConnection connection = dbManager.GetConnection())
+            {
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("SELECT * FROM NewEmployees", connection);
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    EmployeeDTO employeeDTO = new EmployeeDTO
+                    {
+                        Id = (int)reader["Id"],
+                        FirstName = reader["FirstName"].ToString(),
+                        LastName = reader["LastName"].ToString(),
+                        EmailAddress = reader["EmailAddress"].ToString(),
+                        Password = reader["Password"].ToString(),
+                        Birthday = (DateTime)reader["Birthday"],
+                        ContactInfo = reader["ContactInfo"].ToString()
+                    };
+
+                    employees.Add(employeeDTO);
+                }
+            }
+
+            return employees;
+        }
         public void DeleteEmployee(int employeeId)
         {
-            string query = "DELETE FROM Employees WHERE Id = @EmployeeId";
+            string query = "DELETE FROM NewEmployees WHERE Id = @EmployeeId";
 
             try
             {
@@ -112,7 +142,7 @@ namespace DataAccessLayer
 
         public bool ValidateLogin(string email, string password)
         {
-            string query = "SELECT Password, Salt FROM Employees WHERE EmailAddress = @EmailAddress";
+            string query = "SELECT Password, Salt FROM NewEmployees WHERE EmailAddress = @EmailAddress";
             using (SqlConnection connection = dbManager.GetConnection())
             {
                 using (SqlCommand command = new SqlCommand(query, connection))
@@ -147,8 +177,40 @@ namespace DataAccessLayer
             {
                 connection.Open();
 
-                SqlCommand command = new SqlCommand("SELECT * FROM Employees WHERE Id = @Id", connection);
+                SqlCommand command = new SqlCommand("SELECT * FROM NewEmployees WHERE Id = @Id", connection);
                 command.Parameters.AddWithValue("@Id", employeeId);
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    employeeDTO = new EmployeeDTO
+                    {
+                        Id = (int)reader["Id"],
+                        FirstName = reader["FirstName"].ToString(),
+                        LastName = reader["LastName"].ToString(),
+                        EmailAddress = reader["EmailAddress"].ToString(),
+                        Password = reader["Password"].ToString(),
+                        Salary = Convert.ToDouble(reader["Salary"]),
+                        HireDate = Convert.ToDateTime(reader["HireDate"]),
+                        JobTitle = reader["JobTitle"].ToString()
+                    };
+                }
+            }
+
+            return employeeDTO;
+        }
+
+        public EmployeeDTO GetEmployeeByEmail(string email)
+        {
+            EmployeeDTO employeeDTO = null;
+
+            using (SqlConnection connection = dbManager.GetConnection())
+            {
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("SELECT * FROM Employees WHERE EmailAddress = @Email", connection);
+                command.Parameters.AddWithValue("@Email", email);
 
                 SqlDataReader reader = command.ExecuteReader();
 
@@ -195,7 +257,7 @@ namespace DataAccessLayer
 
         public void UpdateEmployee(int employeeId, string firstName, string lastName, string emailAddress, string password, double salary, DateTime hireDate, string jobTitle)
         {
-            string query = @"UPDATE Employees 
+            string query = @"UPDATE NewEmployees 
                      SET FirstName = @FirstName, 
                          LastName = @LastName, 
                          EmailAddress = @EmailAddress, 
@@ -218,7 +280,7 @@ namespace DataAccessLayer
                 string hashedPassword = HashPassword(password, salt);
 
                
-                query = @"UPDATE Employees 
+                query = @"UPDATE NewEmployees 
                   SET FirstName = @FirstName, 
                       LastName = @LastName, 
                       EmailAddress = @EmailAddress, 

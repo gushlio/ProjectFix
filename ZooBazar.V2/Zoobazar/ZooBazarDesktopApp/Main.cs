@@ -34,7 +34,7 @@ namespace ZooBazarDesktopApp
         private void RefreshEmployeeListData()
         {
 
-            List<Employee> employees = employeeManager.GetAllEmployees();
+            List<Employee> employees = employeeManager.LoadEmployees();
             if (employees != null)
             {
 
@@ -77,7 +77,7 @@ namespace ZooBazarDesktopApp
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            int employeeId = Convert.ToInt32(numericUpDownUpdateEmployee.Value);
+            /*int employeeId = Convert.ToInt32(numericUpDownUpdateEmployee.Value);
 
             if (employeeId <= 0)
             {
@@ -99,10 +99,10 @@ namespace ZooBazarDesktopApp
             string newJobTitle = cmbJobTitle.SelectedItem.ToString();
 
 
-            Employee updatedEmployee = new Employee(employeeId, newFirstName, newLastName, newEmail, newPassword, newSalary, newHireDate, newJobTitle);
+            Employee updatedEmployee = new Employee(employeeId, newFirstName, newLastName, newEmail, newPassword, newSalary, newHireDate, newJobTitle);*/
 
 
-            employeeManager.UpdateEmployee(updatedEmployee);
+            /*employeeManager.UpdateEmployee(updatedEmployee);*/
 
 
             RefreshEmployeeListData();

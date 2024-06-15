@@ -1,32 +1,36 @@
 ﻿using DataAccessLayer;
+using DataAccessLayer.DTOs;
 using Domain.Entity;
 using Domain.Interfaces;
+using Domain.MapperClasses;
 
 namespace Domain.Manager
 {
     public class EmployeeManager
     {
         private EmployeeDatabase employeeDatabase;
+        
         private IFormFactory _formFactory;
 
-        public EmployeeManager(EmployeeDatabase dataAccess, IFormFactory formFactory)
+        public EmployeeManager()
         {
-            employeeDatabase = dataAccess;
-            _formFactory = formFactory;
+            employeeDatabase = new EmployeeDatabase();
         }
 
         public void AddEmployee(Employee employee)
         {
-            employeeDatabase.AddEmployee(employee.FirstName, employee.LastName, employee.EmailAddress, employee.Password, employee.Salary, employee.HireDate, employee.JobTitle);
+            employeeDatabase.AddEmployee(employee.FirstName, employee.LastName, employee.EmailAddress, employee.Password, employee.Birthday, employee.ContactInfo);
         }
-        public List<Employee> GetAllEmployees()
+        /*public List<Employee> GetAllEmployees()
         {
             List<IDictionary<string, object>> employeesData = employeeDatabase.GetAllEmployees();
             List<Employee> employees = new List<Employee>();
 
             foreach (var employeeData in employeesData)
             {
-                Employee employee = new Employee(
+                Employee employee = new LoadEmployees
+                    
+                    Employee(
                     Convert.ToInt32(employeeData["Id"]),
                     employeeData["FirstName"].ToString(),
                     employeeData["LastName"].ToString(),
@@ -40,7 +44,34 @@ namespace Domain.Manager
             }
 
             return employees;
+        }*/
+
+        public List<Employee> LoadEmployees()
+        {
+            List<EmployeeDTO> employeeDTOs = employeeDatabase.LoadEmployees();
+            List<Employee> employees = new List<Employee>();
+
+            foreach (var employeeDTO in employeeDTOs)
+            {
+                Employee employee = EmployeeMapper.MapToEntity(employeeDTO);
+                employees.Add(employee);
+            }
+
+            return employees;
         }
+
+        public Employee GetEmployeeById(int employeeId)
+        {
+            var employeeDTO = employeeDatabase.GetEmployeeById(employeeId);
+            return EmployeeMapper.MapToEntity(employeeDTO);
+        }
+
+        public Employee GetEmployeeByEmail(string email)
+        {
+            var employeeDTO = employeeDatabase.GetEmployeeByEmail(email);
+            return EmployeeMapper.MapToEntity(employeeDTO);
+        }
+
         public void DeleteEmployee(Employee employee)
         {
             employeeDatabase.DeleteEmployee(employee.Id);
@@ -62,16 +93,8 @@ namespace Domain.Manager
 
             if (jobTitle == null)
             {
-                Console.WriteLine("Error: Job title is null for email " + email);
                 return;
             }
-
-            if (_formFactory == null)
-            {
-                Console.WriteLine("Error: _formFactory is null");
-                return;
-            }
-
             _formFactory.OpenForm(jobTitle);
         }
 

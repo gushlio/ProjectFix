@@ -13,8 +13,7 @@ namespace DataAccessLayer.DTOs
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
         public string Password { get; set; }
-        public double Salary { get; set; }
-        public DateTime HireDate { get; set; }
-        public string JobTitle { get; set; }
+        public DateTime Birthday { get; set; }
+        public string ContactInfo { get; set; }
     }
 }

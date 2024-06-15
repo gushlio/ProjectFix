@@ -10,22 +10,11 @@ namespace Domain.MapperClasses
 {
     public class EmployeeMapper
     {
-        public static Employee MapToEntity(EmployeeDTO employeeDTO)
-        {
-            return new Employee(
-                employeeDTO.Id,
-                employeeDTO.FirstName,
-                employeeDTO.LastName,
-                employeeDTO.EmailAddress,
-                employeeDTO.Password,
-                employeeDTO.Salary,
-                employeeDTO.HireDate,
-                employeeDTO.JobTitle
-            );
-        }
-
         public static EmployeeDTO MapToDTO(Employee employee)
         {
+            if (employee == null)
+                return null;
+
             return new EmployeeDTO
             {
                 Id = employee.Id,
@@ -33,10 +22,19 @@ namespace Domain.MapperClasses
                 LastName = employee.LastName,
                 EmailAddress = employee.EmailAddress,
                 Password = employee.Password,
-                Salary = employee.Salary,
-                HireDate = employee.HireDate,
-                JobTitle = employee.JobTitle
+                Birthday = employee.Birthday,
+                ContactInfo = employee.ContactInfo
             };
+        }
+
+        public static Employee MapToEntity(EmployeeDTO employeeDTO)
+        {
+            if (employeeDTO == null)
+                return null;
+
+            return new Employee(employeeDTO.Id, employeeDTO.FirstName, employeeDTO.LastName,
+                                employeeDTO.EmailAddress, employeeDTO.Password, employeeDTO.Birthday,
+                                employeeDTO.ContactInfo);
         }
     }
 }
