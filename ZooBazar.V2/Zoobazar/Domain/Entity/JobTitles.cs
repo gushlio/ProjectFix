@@ -12,10 +12,8 @@ namespace Domain.Entity
         Veterinarian,
         Feeder,
         Cleaner,
-        AnimalTrainer,
         SecurityGuard,
         VisitorServices,
         AdministrativeStaff,
-        FoodServiceWorker,
     }
 }

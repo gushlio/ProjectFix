@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using DataAccessLayer.DTOs;
+using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -136,6 +137,38 @@ namespace DataAccessLayer
                 }
             }
             return false;
+        }
+
+        public EmployeeDTO GetEmployeeById(int employeeId)
+        {
+            EmployeeDTO employeeDTO = null;
+
+            using (SqlConnection connection = dbManager.GetConnection())
+            {
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("SELECT * FROM Employees WHERE Id = @Id", connection);
+                command.Parameters.AddWithValue("@Id", employeeId);
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    employeeDTO = new EmployeeDTO
+                    {
+                        Id = (int)reader["Id"],
+                        FirstName = reader["FirstName"].ToString(),
+                        LastName = reader["LastName"].ToString(),
+                        EmailAddress = reader["EmailAddress"].ToString(),
+                        Password = reader["Password"].ToString(),
+                        Salary = Convert.ToDouble(reader["Salary"]),
+                        HireDate = Convert.ToDateTime(reader["HireDate"]),
+                        JobTitle = reader["JobTitle"].ToString()
+                    };
+                }
+            }
+
+            return employeeDTO;
         }
 
         public string GetJobTitle(string email)

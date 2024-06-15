@@ -80,40 +80,199 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    background-size: cover;
+}
+
+/*.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;*/ /* Adjust as needed */
+/*}*/
+
+h1 {
+    color: #258cfb;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.map {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .map img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%; /* Ensure images don't exceed container width */
+    }
+
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .button-container button {
+        margin: 55px; /* Adjust spacing between buttons */
+        padding: 10px 20px; /* Adjust button padding */
+        background-color: #007bff; /* Button background color */
+        color: white; /* Button text color */
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Apply border radius */
+        cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
+.hero {
+    position: relative;
+    background-image: url('https://images.photowall.com/products/62137/zoo-animals.jpg?h=699&q=85');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px; /* Adjusted height for better visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .hero:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+        z-index: 1;
+    }
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: #fff; /* White text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow for contrast */
+    max-width: 800px;
+    padding: 20px; /* Padding for better spacing */
+}
+
+.hero h1 {
+    font-size: 4em; /* Larger font size */
+    margin-bottom: 10px; /* Adjust margin */
+    color: #fff; /* White text color */
+}
+
+.hero-subtitle {
+    font-size: 1.5em; /* Adjusted font size */
+    color: #fff; /* White text color */
+}
+
+.main-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.offer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+    .offer-section h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .offer-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .offer-section ul li {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+.visit-section {
+    flex: 1;
+    background-color: #fff; /* White background for visit section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.visit-content {
+    text-align: center;
+}
+
+.visit-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.visit-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 .btn {
-    /* Add rounded corners for a modern look */
-    border-radius: 4px;
-    /* Add padding for better clickability */
+    display: inline-block;
     padding: 10px 20px;
-    /* Set background and text color */
-    <<<<<<< Updated upstream background-color: #258cfb;
-    ======= background-color: forestgreen;
-    >>>>>>> Stashed changes color: #fff;
-    /* Add hover effect for interactivity */
-    transition: background-color 0.3s ease;
+    background-color: forestgreen;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-    /* Hover effect for buttons */
     .btn:hover {
-        <<<<<<< Updated upstream background-color: #1364a5; /* Darker shade for hover */
-        ======= background-color: darkgreen; /* Darker shade for hover */
-        >>>>>>> Stashed changes
+        background-color: greenyellow;
     }
 
-/* Navigation link styles */
+
 .nav-link {
-    /* Add margin for better spacing between links */
     margin-right: 10px;
-    /* Set text color */
     color: #333;
-    /* Add hover effect */
     transition: color 0.3s ease;
 }
 
-    /* Hover effect for navigation links */
     .nav-link:hover {
-        color: #258cfb; /* Change color on hover */
+        color: #258cfb; 
     }
+
+.footer {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 0; /* Padding around footer content */
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    height: 60px;
+}
+
+    .footer a {
+        color: #6c757d; /* Gray text color for links */
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            color: #007bff; /* Blue color on hover for links */
+        }
