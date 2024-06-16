@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZooBazarWEB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42319795536e2f7b25314ebbc1b24d4f2da3b385")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZooBazarWEB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZooBazarWEB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

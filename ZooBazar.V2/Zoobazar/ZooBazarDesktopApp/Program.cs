@@ -1,9 +1,8 @@
 using DataAccessLayer;
 using DesktopApp;
-using Domain.Interfaces;
 using Domain.Manager;
 using Microsoft.Extensions.DependencyInjection;
-using ZooBazarDesktopApp.Classes;
+
 
 namespace ZooBazarDesktopApp
 {

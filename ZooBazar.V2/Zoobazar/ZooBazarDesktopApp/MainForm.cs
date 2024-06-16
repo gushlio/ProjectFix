@@ -12,8 +12,7 @@ using System.Windows.Forms;
 using ZooBazarDesktopApp.UserControls;
 using Domain.Manager;
 using DataAccessLayer;
-using ZooBazarDesktopApp.Classes;
-using Domain.Interfaces;
+
 
 namespace ZooBazarDesktopApp
 {

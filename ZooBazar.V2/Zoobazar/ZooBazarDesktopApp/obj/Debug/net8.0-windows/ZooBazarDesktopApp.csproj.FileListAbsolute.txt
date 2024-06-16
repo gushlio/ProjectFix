@@ -123,3 +123,4 @@ C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBa
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.ZookeeperForm.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.SignUp.resources

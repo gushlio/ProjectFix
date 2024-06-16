@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "99+FsD5l+UdFCHFFskFO6t4coAnLBq5YWlTpUqXbXe3Jpml3ip0toHA6H7yBdfIiN0YUy4KUwtSrEwi5rY1H9Q==",
+  "dgSpecHash": "Dj2yklf+2Qbaez5SQeR25tkHLXcgxqCTMUVMJFgx6xyQzBf3lGdImO7mRJgnff05CSx49yM04U33Z/zEeojuPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lachezar Mitov\\Documents\\GitHub\\zoopNew\\zoop\\ZooBazar.V2\\Zoobazar\\ZooBazarDesktopApp\\ZooBazarDesktopApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\bcrypt.net\\0.1.0\\bcrypt.net.0.1.0.nupkg.sha512",
     "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
@@ -16,5 +17,16 @@
     "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Lachezar Mitov\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BCrypt.Net 0.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BCrypt.Net",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

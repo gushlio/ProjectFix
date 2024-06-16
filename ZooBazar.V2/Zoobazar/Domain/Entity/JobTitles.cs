@@ -9,11 +9,12 @@ namespace Domain.Entity
     public enum JobTitles
     {
         Zookeeper,
+        SeniorZooKeeper,
+        TicketBooth,
         Veterinarian,
-        Feeder,
         Cleaner,
         SecurityGuard,
         VisitorServices,
-        AdministrativeStaff,
+        Manager,
     }
 }

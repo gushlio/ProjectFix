@@ -4,12 +4,13 @@ namespace Domain.Entity
 {
     public abstract class User
     {
-        public int Id { get; private set; }
-        public string Username { get; set; } = string.Empty; // Initialize non-nullable property
-        public string FirstName { get; set; } = string.Empty; // Initialize non-nullable property
-        public string LastName { get; set; } = string.Empty; // Initialize non-nullable property
-        public string EmailAddress { get; set; } = string.Empty; // Initialize non-nullable property
-        public string Password { get; set; } = string.Empty; // Initialize non-nullable property
+        public int Id { get; set; }
+        public string Username { get; set; } 
+        public string FirstName { get; set; } 
+        public string LastName { get; set; } 
+        public string EmailAddress { get; set; } 
+        public string Password { get; set; } 
+        public string Salt { get; set; }
 
         protected User(int id, string firstName, string lastName, string username, string emailAddress, string password)
         {

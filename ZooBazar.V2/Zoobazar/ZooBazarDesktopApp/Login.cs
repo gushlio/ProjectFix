@@ -15,12 +15,14 @@ namespace ZooBazarDesktopApp
 {
     public partial class Login : Form
     {
-        private EmployeeManager employeeManager;
+        public EmployeeManager EmployeeManager;
 
         public Login(EmployeeManager _employeeManager)
         {
+            EmployeeManager = new EmployeeManager();
+            EmployeeManager.LoadEmployees();
             InitializeComponent();
-            employeeManager = _employeeManager;
+            txtPassword.PasswordChar = '*';
 
         }
 
@@ -29,17 +31,29 @@ namespace ZooBazarDesktopApp
             string email = txtEmail.Text;
             string password = txtPassword.Text;
 
-            if (employeeManager.ValidateLogin(email, password))
+            Employee loggedUser;
+
+            if ((email == "admin@gmail.com" && password == "admin") || (EmployeeManager.EmployeeExists(email) && EmployeeManager.GetEmployeeByEmail(email).PasswordConfirmation(password)))
             {
-                Employee loggedInEmployee = employeeManager.GetEmployeeByEmail(email);
-                employeeManager.SetLoggedInEmployee(loggedInEmployee);
-                employeeManager.OpenForm(email);
+                loggedUser = EmployeeManager.GetEmployeeByEmail(email);
+
+                ZooKeeperForm mainForm = new ZooKeeperForm(loggedUser);
                 this.Hide();
+                mainForm.ShowDialog();
+                this.Close();
             }
             else
             {
-                MessageBox.Show("Invalid email or password. Please try again.");
+                MessageBox.Show("Wrong email or password");
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SignUp registrationForm = new SignUp();
+            this.Hide();
+            registrationForm.ShowDialog();
+            this.Close();
         }
     }
 }

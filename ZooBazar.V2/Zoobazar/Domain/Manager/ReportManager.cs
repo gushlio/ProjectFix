@@ -21,7 +21,7 @@ namespace Domain.Manager
             employeeDataAccess = new EmployeeDatabase();
         }
 
-        public void CreateReport(string title, ReportCategory category, string description, Employee createdBy)
+        /*public void CreateReport(string title, ReportCategory category, string description, Employee createdBy)
         {
             reportsDataAccess.CreateReport(title, category, description, createdBy);
         }
@@ -68,6 +68,6 @@ namespace Domain.Manager
             Employee createdBy = EmployeeMapper.MapToEntity(createdByDTO);
             Report report = ReportMapper.MapFromDTO(reportDTO, createdBy);
             return report;
-        }
+        }*/
     }
 }

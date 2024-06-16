@@ -9,20 +9,35 @@ namespace Domain.Entity
     public class Contract
     {
         public int Id { get; set; }
-        public string Title { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
+        public string ContractStart { get; set; }
+        public string EndMessage { get; set; }
+        public string ContractEnd { get; set; }
         public double Salary { get; set; }
         public string JobTitle { get; set; }
 
-        public Contract(int id, string title, DateTime startDate, DateTime endDate, double salary, string jobTitle)
+        public Contract(int id, string contractStart, string endMessage, string contractEnd, double salary, string jobTitle)
         {
             Id = id;
-            Title = title;
-            StartDate = startDate;
-            EndDate = endDate;
+            ContractStart = contractStart;
+            EndMessage = endMessage;
+            ContractEnd = contractEnd;
             Salary = salary;
             JobTitle = jobTitle;
+        }
+
+        public Contract()
+        {
+            Id = 0;
+            ContractStart = "";
+            EndMessage = "";
+            ContractEnd = "";
+            Salary = 0;
+            JobTitle = "";
+        }
+        public void TerminateContract(string contractEnd, string endMessage)
+        {
+            ContractEnd = contractEnd;
+            EndMessage = endMessage;
         }
     }
 }

@@ -37,6 +37,8 @@
             label3 = new Label();
             label4 = new Label();
             button1 = new Button();
+            button2 = new Button();
+            backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -55,7 +57,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(72, 57);
+            label2.Location = new Point(134, 57);
             label2.Name = "label2";
             label2.Size = new Size(222, 37);
             label2.TabIndex = 1;
@@ -66,7 +68,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             label1.ForeColor = Color.Transparent;
-            label1.Location = new Point(98, 12);
+            label1.Location = new Point(159, 12);
             label1.Name = "label1";
             label1.Size = new Size(171, 45);
             label1.TabIndex = 0;
@@ -74,52 +76,73 @@
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(119, 145);
+            txtEmail.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold);
+            txtEmail.Location = new Point(129, 148);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(196, 23);
+            txtEmail.Size = new Size(344, 36);
             txtEmail.TabIndex = 1;
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(119, 207);
+            txtPassword.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold);
+            txtPassword.Location = new Point(129, 210);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(196, 23);
+            txtPassword.Size = new Size(340, 36);
             txtPassword.TabIndex = 2;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(48, 148);
+            label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(15, 151);
             label3.Name = "label3";
-            label3.Size = new Size(39, 15);
+            label3.Size = new Size(72, 30);
             label3.TabIndex = 3;
             label3.Text = "Email:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(27, 210);
+            label4.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(12, 210);
             label4.Name = "label4";
-            label4.Size = new Size(60, 15);
+            label4.Size = new Size(111, 30);
             label4.TabIndex = 4;
             label4.Text = "Password:";
             // 
             // button1
             // 
+            button1.BackColor = Color.DarkSeaGreen;
             button1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            button1.Location = new Point(27, 245);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(8, 272);
             button1.Name = "button1";
-            button1.Size = new Size(288, 76);
+            button1.Size = new Size(461, 58);
             button1.TabIndex = 5;
             button1.Text = "Login";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.DarkSeaGreen;
+            button2.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(113, 386);
+            button2.Name = "button2";
+            button2.Size = new Size(248, 59);
+            button2.TabIndex = 6;
+            button2.Text = "Sign Up";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(346, 333);
+            BackColor = Color.OldLace;
+            ClientSize = new Size(481, 457);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -145,5 +168,7 @@
         private Label label3;
         private Label label4;
         private Button button1;
+        private Button button2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
     }
 }
