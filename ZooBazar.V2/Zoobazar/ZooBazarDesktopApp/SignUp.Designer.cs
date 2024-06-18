@@ -31,6 +31,9 @@
             panel1 = new Panel();
             label1 = new Label();
             groupBox1 = new GroupBox();
+            lblErrorBSN = new Label();
+            lblErrorBirth = new Label();
+            lblErrorPhone = new Label();
             txtAddress = new RichTextBox();
             label7 = new Label();
             label6 = new Label();
@@ -44,11 +47,13 @@
             txtLastName = new TextBox();
             txtFirstName = new TextBox();
             groupBox2 = new GroupBox();
+            lblErrorEmail = new Label();
             label9 = new Label();
             label8 = new Label();
             btnSignUp = new Button();
             txtPassword = new TextBox();
             txtEmail = new TextBox();
+            lblErrorPassword = new Label();
             panel1.SuspendLayout();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -77,6 +82,9 @@
             // groupBox1
             // 
             groupBox1.BackColor = Color.DarkSeaGreen;
+            groupBox1.Controls.Add(lblErrorBSN);
+            groupBox1.Controls.Add(lblErrorBirth);
+            groupBox1.Controls.Add(lblErrorPhone);
             groupBox1.Controls.Add(txtAddress);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(label6);
@@ -97,6 +105,33 @@
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Personal Information";
+            // 
+            // lblErrorBSN
+            // 
+            lblErrorBSN.AutoSize = true;
+            lblErrorBSN.ForeColor = Color.Red;
+            lblErrorBSN.Location = new Point(346, 208);
+            lblErrorBSN.Name = "lblErrorBSN";
+            lblErrorBSN.Size = new Size(0, 21);
+            lblErrorBSN.TabIndex = 16;
+            // 
+            // lblErrorBirth
+            // 
+            lblErrorBirth.AutoSize = true;
+            lblErrorBirth.ForeColor = Color.Red;
+            lblErrorBirth.Location = new Point(346, 155);
+            lblErrorBirth.Name = "lblErrorBirth";
+            lblErrorBirth.Size = new Size(0, 21);
+            lblErrorBirth.TabIndex = 15;
+            // 
+            // lblErrorPhone
+            // 
+            lblErrorPhone.AutoSize = true;
+            lblErrorPhone.ForeColor = Color.Red;
+            lblErrorPhone.Location = new Point(602, 82);
+            lblErrorPhone.Name = "lblErrorPhone";
+            lblErrorPhone.Size = new Size(0, 21);
+            lblErrorPhone.TabIndex = 14;
             // 
             // txtAddress
             // 
@@ -174,6 +209,7 @@
             txtBSN.Font = new Font("Segoe UI Semibold", 15F);
             txtBSN.Location = new Point(132, 199);
             txtBSN.Name = "txtBSN";
+            txtBSN.PlaceholderText = "xxxx.xx.xxx";
             txtBSN.Size = new Size(208, 34);
             txtBSN.TabIndex = 3;
             txtBSN.TextChanged += txtBSN_TextChanged;
@@ -183,6 +219,7 @@
             txtDateOfBirth.Font = new Font("Segoe UI Semibold", 15F);
             txtDateOfBirth.Location = new Point(132, 146);
             txtDateOfBirth.Name = "txtDateOfBirth";
+            txtDateOfBirth.PlaceholderText = "dd-mm-yyyy";
             txtDateOfBirth.Size = new Size(208, 34);
             txtDateOfBirth.TabIndex = 2;
             txtDateOfBirth.TextChanged += txtDateOfBirth_TextChanged;
@@ -206,6 +243,8 @@
             // groupBox2
             // 
             groupBox2.BackColor = Color.DarkSeaGreen;
+            groupBox2.Controls.Add(lblErrorPassword);
+            groupBox2.Controls.Add(lblErrorEmail);
             groupBox2.Controls.Add(label9);
             groupBox2.Controls.Add(label8);
             groupBox2.Controls.Add(btnSignUp);
@@ -219,6 +258,15 @@
             groupBox2.TabIndex = 2;
             groupBox2.TabStop = false;
             groupBox2.Text = "Account Credentials:";
+            // 
+            // lblErrorEmail
+            // 
+            lblErrorEmail.AutoSize = true;
+            lblErrorEmail.ForeColor = Color.Red;
+            lblErrorEmail.Location = new Point(492, 37);
+            lblErrorEmail.Name = "lblErrorEmail";
+            lblErrorEmail.Size = new Size(0, 21);
+            lblErrorEmail.TabIndex = 15;
             // 
             // label9
             // 
@@ -254,6 +302,7 @@
             txtPassword.Font = new Font("Segoe UI Semibold", 15F);
             txtPassword.Location = new Point(187, 83);
             txtPassword.Name = "txtPassword";
+            txtPassword.PlaceholderText = "Atleast 8 Characters";
             txtPassword.Size = new Size(299, 34);
             txtPassword.TabIndex = 15;
             txtPassword.TextChanged += txtPassword_TextChanged;
@@ -263,9 +312,19 @@
             txtEmail.Font = new Font("Segoe UI Semibold", 15F);
             txtEmail.Location = new Point(187, 28);
             txtEmail.Name = "txtEmail";
+            txtEmail.PlaceholderText = "name@gmail.com";
             txtEmail.Size = new Size(299, 34);
             txtEmail.TabIndex = 14;
             txtEmail.TextChanged += txtEmail_TextChanged;
+            // 
+            // lblErrorPassword
+            // 
+            lblErrorPassword.AutoSize = true;
+            lblErrorPassword.ForeColor = Color.Red;
+            lblErrorPassword.Location = new Point(492, 92);
+            lblErrorPassword.Name = "lblErrorPassword";
+            lblErrorPassword.Size = new Size(0, 21);
+            lblErrorPassword.TabIndex = 17;
             // 
             // SignUp
             // 
@@ -309,5 +368,10 @@
         private TextBox txtEmail;
         private Label label9;
         private Label label8;
+        private Label lblErrorPhone;
+        private Label lblErrorEmail;
+        private Label lblErrorBirth;
+        private Label lblErrorBSN;
+        private Label lblErrorPassword;
     }
 }

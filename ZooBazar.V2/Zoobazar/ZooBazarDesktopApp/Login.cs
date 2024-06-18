@@ -17,7 +17,7 @@ namespace ZooBazarDesktopApp
     {
         public EmployeeManager EmployeeManager;
 
-        public Login(EmployeeManager _employeeManager)
+        public Login()
         {
             EmployeeManager = new EmployeeManager();
             EmployeeManager.LoadEmployees();
@@ -50,7 +50,7 @@ namespace ZooBazarDesktopApp
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SignUp registrationForm = new SignUp();
+            SignUp registrationForm = new SignUp(false);
             this.Hide();
             registrationForm.ShowDialog();
             this.Close();

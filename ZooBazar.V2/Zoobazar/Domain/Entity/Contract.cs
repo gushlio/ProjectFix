@@ -15,7 +15,7 @@ namespace Domain.Entity
         public double Salary { get; set; }
         public string JobTitle { get; set; }
 
-        public Contract(int id, string contractStart, string endMessage, string contractEnd, double salary, string jobTitle)
+        public Contract(int id, string contractStart, string contractEnd, string endMessage, double salary, string jobTitle)
         {
             Id = id;
             ContractStart = contractStart;

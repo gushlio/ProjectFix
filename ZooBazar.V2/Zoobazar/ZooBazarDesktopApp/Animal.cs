@@ -1,4 +1,5 @@
 ﻿
+using Domain.Entity;
 using Domain.Service;
 using System.Data;
 using System.Windows.Forms;
@@ -11,8 +12,8 @@ namespace ZooBazarDesktopApp
         private String selectedAnimalName;
         private String selectedLocationName;
 
-
-        public Animal()
+        Employee loggedEmployee;
+        public Animal(Employee loggedUser)
         {
             InitializeComponent();
             _animalService = new AnimalService();
@@ -25,6 +26,8 @@ namespace ZooBazarDesktopApp
             PopulateAnimalsDataGridView();
             PopulateAnimalCareDataGridView();
             PopulateDeportedAnimalsDataGridView();
+
+            this.loggedEmployee = loggedUser;
         }
 
         private void PopulateAnimalCareDataGridView()

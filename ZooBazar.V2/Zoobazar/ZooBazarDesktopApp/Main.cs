@@ -1,4 +1,3 @@
-using DesktopApp;
 using Domain.Entity;
 using Domain.Manager;
 using Drawing = System.Drawing;
@@ -27,13 +26,13 @@ namespace ZooBazarDesktopApp
         //employees
         private void btnAddEmployees_Click(object sender, EventArgs e)
         {
-            AddEmployee addEmployeeForm = new AddEmployee(employeeManager);
+            /*AddEmployee addEmployeeForm = new AddEmployee(employeeManager);
             addEmployeeForm.ShowDialog();
-            RefreshEmployeeListData();
+            RefreshEmployeeListData();*/
         }
         private void RefreshEmployeeListData()
         {
-
+/*
             List<Employee> employees = employeeManager.LoadEmployees();
             if (employees != null)
             {
@@ -44,7 +43,7 @@ namespace ZooBazarDesktopApp
             {
 
                 MessageBox.Show("No employees found");
-            }
+            }*/
         }
         private void ClearForm()
         {

@@ -27,22 +27,26 @@ namespace Domain.Manager
             employeeDatabase.AddEmployee(firstName, lastName, emailAddress, password, dateOfBirth, contactInfo, bsn, address);
             LoadEmployees();
         }
-
+         
         public void LoadEmployees()
         {
             Employees.Clear();
+            HistoryInts = new List<int>();
             employeeDatabase.LoadEmployees();
             foreach (List<string> employeeData in employeeDatabase.EmployeeData)
             {
-                // Create the Contract object from the employee data
-                Entity.Contract contract = new Entity.Contract(
-                Convert.ToInt32(employeeData[12]), // Contract ID
-                employeeData[13], // Contract Start
-                employeeData[14], // End Message
-                employeeData[15], // Contract End
-                Convert.ToDouble(employeeData[16]), // Salary
-                employeeData[17]  // Job Title
-            );
+                Entity.Contract contract = null;
+                if (!string.IsNullOrEmpty(employeeData[13])) // Check if ContractId is not null or empty
+                {
+                    contract = new Entity.Contract(
+                        Convert.ToInt32(employeeData[13]),    // ContractId
+                        employeeData[14],                     // ContractStart
+                        employeeData[15],                     // EndMessage
+                        employeeData[16],                     // ContractEnd
+                        string.IsNullOrEmpty(employeeData[17]) ? 0 : Convert.ToDouble(employeeData[17]), // Salary
+                        employeeData[18]                      // JobTitle
+                    );
+                }
 
                 Employee employee = new Employee(
                    Convert.ToInt32(employeeData[0]),  // Employee ID
@@ -52,32 +56,39 @@ namespace Domain.Manager
                    employeeData[4],  // Password
                    employeeData[6], // Date of Birth
                    employeeData[7],  // Contact Info
-                   employeeData[10], // Bsn
-                   employeeData[9]  // Address
+                   employeeData[10], // bsn
+                   employeeData[9] // address
                 );
 
-                employee.Salt = employeeData[5]; 
+                employee.Salt = employeeData[5];
+                if (employeeData[12] == "1")
+                {
+                    employee.FirstLogin = true;
+                }
+                else
+                {
+                    employee.FirstLogin = false;
+                }
 
                 // Determine if the employee is logging in for the first time
                 // Assuming you have some logic to determine the first login if needed
 
                 // Add the contract to the employee
-                if (string.IsNullOrEmpty(contract.EndMessage) ||
-                    contract.EndMessage == "Contract isn't terminated" || contract.EndMessage == null)
+                if (contract != null)
                 {
-                    employee.SetContractHistory(GetContractHistory(employee.Id));
-                    if (HistoryInts.Contains(contract.Id))
+                    if (string.IsNullOrEmpty(contract.EndMessage) || contract.EndMessage == "Contract isn't terminated")
                     {
-                        GetNewContract(employee.Id);
-                    }
-                    else
-                    {
-                        employee.SetContract(contract);
+                        if (!HistoryInts.Contains(contract.Id))
+                        {
+                            employee.SetContract(contract);
+                        }
                     }
                 }
-                else
+
+                // Ensure employee contract is set to null if it has been terminated
+                if (contract == null || (!string.IsNullOrEmpty(contract.EndMessage) && contract.EndMessage != "Contract isn't terminated"))
                 {
-                    GetNewContract(employee.Id);
+                    employee.SetContract(null);
                 }
 
                 // Add the employee to the list
@@ -91,9 +102,15 @@ namespace Domain.Manager
             employeeDatabase.LoadContracts();
             foreach (List<string> contractData in employeeDatabase.ContractData)
             {
-                Entity.Contract contract = new Entity.Contract(Convert.ToInt32(contractData[0]), contractData[1], contractData[2], contractData[3], Convert.ToDouble(contractData[16]), contractData[5]);
-                Contracts.Add(contract);
+                int contractId = Convert.ToInt32(contractData[0]);
+                string contractStart = contractData.Count > 1 ? contractData[1] : null;
+                string contractEnd = contractData.Count > 2 ? contractData[2] : null;
+                string endMessage = contractData.Count > 3 ? contractData[3] : null;
+                double salary = contractData.Count > 4 ? Convert.ToDouble(contractData[4]) : 0.0; // Adjust index as necessary
+                string jobTitle = contractData.Count > 5 ? contractData[5] : null; // Adjust index as necessary
 
+                Entity.Contract contract = new Entity.Contract(contractId, contractStart, contractEnd, endMessage, salary, jobTitle);
+                Contracts.Add(contract);
             }
         }
 
@@ -102,6 +119,8 @@ namespace Domain.Manager
             employeeDatabase.DeleteEmployee(employee.Id);
             LoadEmployees();
         }
+
+
 
         public void AddContract(int employeeId, string ContractStart, string EndMessage, string ContractEnd, double Salary, string JobTitle)
         {
@@ -153,9 +172,9 @@ namespace Domain.Manager
             return null;
         }
 
-        public void UpdateContract(int contractId, string ContractStart, string EndMessage, string ContractEnd, double Salary, string JobTitle)
+        public void UpdateContract(int contractId, string ContractStart, string ContractEnd, string EndMessage, double Salary, string JobTitle)
         {
-            employeeDatabase.UpdateContract(contractId, JobTitle, ContractStart, ContractEnd, EndMessage, Salary);
+            employeeDatabase.UpdateContract(contractId, ContractStart, ContractEnd, EndMessage, Salary, JobTitle);
             LoadEmployees();
         }
 
@@ -308,6 +327,20 @@ namespace Domain.Manager
             return null;
         }
 
+        public void EmployeeFirstLogin(int id, string password, string salt)
+        {
+            foreach (Employee em in Employees)
+            {
+                if (em.Id == id)
+                {
+                    em.FirstLogin = true;
+                    employeeDatabase.EmployeeFirstLoginData(id, password, salt);
+                }
+
+            }
+            LoadEmployees();
+        }
+
         public Employee GetEmployeeByUsername(string username)
         {
 
@@ -330,6 +363,11 @@ namespace Domain.Manager
 
             employeeDatabase.UpdateEmployeeData( Id,  firstName,  lastName,  emailAddress,  dateOfBirth,  contactInfo,  bsn,  address);
             LoadEmployees();
+        }
+
+        public void TerminateContract(int employeeId, string endMessage)
+        {
+            employeeDatabase.TerminateContract(employeeId, endMessage);
         }
 
         public void UpdatePassword(int id, string password, string salt)

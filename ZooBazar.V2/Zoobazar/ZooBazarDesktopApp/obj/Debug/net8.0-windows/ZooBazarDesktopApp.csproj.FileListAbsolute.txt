@@ -93,7 +93,6 @@ C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBa
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\Domain.pdb
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\DataAccessLayer.pdb
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.csproj.AssemblyReference.cache
-C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\DesktopApp.AddEmployee.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Animal.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Login.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Main.resources
@@ -101,7 +100,6 @@ C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBa
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.Properties.Resources.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.Calendar.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.Dashboard.resources
-C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\LibraryApplication.UserControls.EmployeesUC.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.TaskUC.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.TicketsUC.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\MyLittleHousing.UserControlBlank.resources
@@ -118,9 +116,15 @@ C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBa
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.genruntimeconfig.cache
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ref\ZooBazarDesktopApp.dll
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.HomeControl.resources
-C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.ReportsControl.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.UserControls.ScheduleControl.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.ZookeeperForm.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.SignUp.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\bin\Debug\net8.0-windows\BCrypt.Net.dll
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.ConfirmationFormcs.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.ContractForm.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.ContractHistoryForm.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.EmployeeForm.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.ViewDetails.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.DeleteForm.resources

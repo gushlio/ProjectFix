@@ -18,6 +18,7 @@ namespace Domain.Entity
         public string Bsn { get; set; }
         public string Address { get; set; }
         public string Info { get; private set; }
+        public bool FirstLogin { get; set; }
 
         public Employee(int id, string firstName, string lastName, string emailAddress, string password,
                     string dateOfBirth, string contactInfo, string bsn, string address)
@@ -29,7 +30,9 @@ namespace Domain.Entity
             Address = address;
             Location = null;
             contractHistory = new List<Contract>();
+            Contract = new Contract();
             Info = $"ID: {id} - Name: {firstName} {lastName} - Email: {emailAddress} - No Contract";
+            FirstLogin = FirstLogin;
         }
 
         public DateTime GetContractStartDate()
@@ -57,7 +60,7 @@ namespace Domain.Entity
         public void SetContract(Contract contract)
         {
             this.Contract = contract;
-            if (contract.JobTitle != "")
+            if (contract != null && !string.IsNullOrEmpty(contract.JobTitle))
             {
                 Info = $"ID: {Id} - Name: {FirstName} {LastName} - Email: {EmailAddress} - Job Position: {contract.JobTitle}";
             }
@@ -74,7 +77,7 @@ namespace Domain.Entity
 
         public bool PasswordConfirmation(string password)
         {
-            string hashedEnteredPassword = BCrypt.Net.BCrypt.HashPassword(password + Salt, Salt);
+            string hashedEnteredPassword = BCrypt.Net.BCrypt.HashPassword(password, Password);
             if (Password == hashedEnteredPassword)
             {
                 return true;

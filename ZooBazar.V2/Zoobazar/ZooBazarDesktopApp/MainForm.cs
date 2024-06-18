@@ -1,5 +1,4 @@
-﻿using LibraryApplication.UserControls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,9 +26,9 @@ namespace ZooBazarDesktopApp
         {
             InitializeComponent();
             /*employeeManager = new EmployeeManager(new EmployeeDatabase(), new FormOpener());*/
-            this.userControls = new List<UserControl>()
+            this.userControls = new List<UserControl>() { };
 
-                {new Dashboard(),  new EmployeesUC(employeeManager), new TicketsUC(),  new TaskUC(), new Calendar() };
+              
             AddControlsToTheForm(this.userControls);
             this.WindowState = FormWindowState.Normal;
         }
