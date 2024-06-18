@@ -219,87 +219,41 @@ namespace Domain.Manager
         public List<string> SearchEmployee(string name, string jobPosition, string location)
         {
             List<string> searchedEmployees = new List<string>();
-            if (name != "" && jobPosition != "" && location != "")
+
+            foreach (Employee employee in Employees)
             {
-                foreach (Employee employee in Employees)
+                bool nameMatch = true;
+                bool jobPositionMatch = true;
+                bool locationMatch = true;
+
+                if (!string.IsNullOrEmpty(name) && !employee.FirstName.Contains(name))
                 {
-                    if (employee.FirstName.ToString() == name && employee.Contract.JobTitle == jobPosition && employee.Location.Name == location)
+                    nameMatch = false;
+                }
+
+                if (!string.IsNullOrEmpty(jobPosition))
+                {
+                    if (employee.Contract == null || !employee.Contract.JobTitle.Contains(jobPosition))
                     {
-                        searchedEmployees.Add(employee.Info);
+                        jobPositionMatch = false;
                     }
                 }
-                return searchedEmployees;
-            }
-            else if (name != "" && jobPosition != "" && location == "")
-            {
-                foreach (Employee employee in Employees)
+
+                if (!string.IsNullOrEmpty(location))
                 {
-                    if (employee.FirstName.ToString() == name && employee.Contract.JobTitle == jobPosition)
+                    if (employee.Location == null || !employee.Location.Name.Contains(location))
                     {
-                        searchedEmployees.Add(employee.Info);
+                        locationMatch = false;
                     }
                 }
-                return searchedEmployees;
-            }
-            else if (name != "" && jobPosition == "" && location != "")
-            {
-                foreach (Employee employee in Employees)
+
+                if (nameMatch && jobPositionMatch && locationMatch)
                 {
-                    if (employee.FirstName.ToString() == name && employee.Location.Name == location)
-                    {
-                        searchedEmployees.Add(employee.Info);
-                    }
+                    searchedEmployees.Add(employee.Info);
                 }
-                return searchedEmployees;
             }
-            else if (name == "" && jobPosition != "" && location != "")
-            {
-                foreach (Employee employee in Employees)
-                {
-                    if (employee.Contract.JobTitle == jobPosition && employee.Location.Name == location)
-                    {
-                        searchedEmployees.Add(employee.Info);
-                    }
-                }
-                return searchedEmployees;
-            }
-            else if (name != "" && jobPosition == "" && location == "")
-            {
-                foreach (Employee employee in Employees)
-                {
-                    if (employee.FirstName.ToString() == name)
-                    {
-                        searchedEmployees.Add(employee.Info);
-                    }
-                }
-                return searchedEmployees;
-            }
-            else if (name == "" && jobPosition != "" && location == "")
-            {
-                foreach (Employee employee in Employees)
-                {
-                    if (employee.Contract.JobTitle == jobPosition)
-                    {
-                        searchedEmployees.Add(employee.Info);
-                    }
-                }
-                return searchedEmployees;
-            }
-            else if (name == "" && jobPosition == "" && location != "")
-            {
-                foreach (Employee employee in Employees)
-                {
-                    if (employee.Location.Name == location)
-                    {
-                        searchedEmployees.Add(employee.Info);
-                    }
-                }
-                return searchedEmployees;
-            }
-            else
-            {
-                return GetEmployeesInfo();
-            }
+
+            return searchedEmployees;
         }
 
         public bool EmployeeExists(string email)

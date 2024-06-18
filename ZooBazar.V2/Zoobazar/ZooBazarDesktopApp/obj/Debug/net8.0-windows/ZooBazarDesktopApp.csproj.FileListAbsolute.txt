@@ -128,3 +128,6 @@ C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBa
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.EmployeeForm.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.ViewDetails.resources
 C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.DeleteForm.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.FeedingTimeTable.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.DayDetails.resources
+C:\Users\Lachezar Mitov\Documents\GitHub\zoopNew\zoop\ZooBazar.V2\Zoobazar\ZooBazarDesktopApp\obj\Debug\net8.0-windows\ZooBazarDesktopApp.ucDay.resources

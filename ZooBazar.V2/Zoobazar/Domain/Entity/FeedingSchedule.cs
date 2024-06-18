@@ -23,7 +23,7 @@ namespace Domain.Entity
         {
             return new List<FeedingSchedule>
             {
-                new FeedingSchedule("Shark", "Aqua Odyssey", new List<TimeSpan> { new TimeSpan(15, 0, 0) }),
+            new FeedingSchedule("Shark", "Aqua Odyssey", new List<TimeSpan> { new TimeSpan(15, 0, 0) }),
             new FeedingSchedule("Sea Turtle", "Aqua Odyssey", new List<TimeSpan> { new TimeSpan(10, 0, 0) }),
             new FeedingSchedule("Clown Fish", "Aqua Odyssey", new List<TimeSpan> { new TimeSpan(8, 0, 0) }),
             new FeedingSchedule("Arctic Fox", "Frost Frontier", new List<TimeSpan> { new TimeSpan(9, 0, 0) }),

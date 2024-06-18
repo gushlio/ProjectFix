@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZooBazarDesktopApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cd62bd936c59caa577712158afe9959812f409e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7c50b39ea181ad6684a7436d2f81da3f1df9d81")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZooBazarDesktopApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZooBazarDesktopApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

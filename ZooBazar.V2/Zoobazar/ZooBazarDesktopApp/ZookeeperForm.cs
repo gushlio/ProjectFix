@@ -45,7 +45,7 @@ namespace ZooBazarDesktopApp
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            ShowForm(new FeedingTimeTable());
         }
 
         private void pictureBoxStatistics_Click(object sender, EventArgs e)

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            comboBoxJobTItle = new ComboBox();
             label4 = new Label();
             btnSearch = new Button();
             label3 = new Label();
@@ -41,7 +42,6 @@
             btnAdd = new Button();
             label5 = new Label();
             lbEmployees = new ListBox();
-            comboBoxJobTItle = new ComboBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -62,16 +62,25 @@
             panel1.Size = new Size(1192, 93);
             panel1.TabIndex = 0;
             // 
+            // comboBoxJobTItle
+            // 
+            comboBoxJobTItle.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            comboBoxJobTItle.FormattingEnabled = true;
+            comboBoxJobTItle.Location = new Point(480, 52);
+            comboBoxJobTItle.Name = "comboBoxJobTItle";
+            comboBoxJobTItle.Size = new Size(190, 29);
+            comboBoxJobTItle.TabIndex = 8;
+            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.ButtonHighlight;
-            label4.Location = new Point(447, 9);
+            label4.Location = new Point(476, 9);
             label4.Name = "label4";
-            label4.Size = new Size(278, 25);
+            label4.Size = new Size(194, 25);
             label4.TabIndex = 7;
-            label4.Text = "Looking for a specific person?\r\n";
+            label4.Text = "Filter Out Employees";
             // 
             // btnSearch
             // 
@@ -133,8 +142,9 @@
             txtName.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtName.Location = new Point(152, 52);
             txtName.Name = "txtName";
-            txtName.Size = new Size(197, 29);
+            txtName.Size = new Size(209, 29);
             txtName.TabIndex = 0;
+            txtName.TextChanged += txtName_TextChanged;
             // 
             // panel2
             // 
@@ -193,15 +203,6 @@
             lbEmployees.Name = "lbEmployees";
             lbEmployees.Size = new Size(1165, 379);
             lbEmployees.TabIndex = 0;
-            // 
-            // comboBoxJobTItle
-            // 
-            comboBoxJobTItle.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            comboBoxJobTItle.FormattingEnabled = true;
-            comboBoxJobTItle.Location = new Point(480, 52);
-            comboBoxJobTItle.Name = "comboBoxJobTItle";
-            comboBoxJobTItle.Size = new Size(190, 29);
-            comboBoxJobTItle.TabIndex = 8;
             // 
             // EmployeeForm
             // 

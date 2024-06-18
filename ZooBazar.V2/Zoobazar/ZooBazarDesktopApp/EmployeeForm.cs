@@ -31,9 +31,26 @@ namespace ZooBazarDesktopApp
             {
                 MessageBox.Show(ex.Message);
             }
+            PopulateJobComboBox();
         }
 
+        public void PopulateJobComboBox()
+        {
 
+            JobTitles[] jobTitles = (JobTitles[])Enum.GetValues(typeof(JobTitles));
+            comboBoxJobTItle.DataSource = jobTitles;
+            comboBoxJobTItle.DisplayMember = "ToString";
+        }
+
+        private void RefreshEmployeeListBox(List<Employee> filteredEmployees)
+        {
+            lbEmployees.Items.Clear();
+
+            foreach (Employee employee in filteredEmployees)
+            {
+                lbEmployees.Items.Add(employee.Info);
+            }
+        }
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
@@ -56,6 +73,11 @@ namespace ZooBazarDesktopApp
             form.ShowDialog();
 
             lbEmployees.DataSource = employeeInfos;
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

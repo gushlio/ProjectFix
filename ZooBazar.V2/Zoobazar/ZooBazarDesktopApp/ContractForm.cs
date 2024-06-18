@@ -27,6 +27,14 @@ namespace ZooBazarDesktopApp
             employeeManager = new EmployeeManager();
             employee = emp;
             InitializeComponent();
+            PopulateJobComboBox();
+        }
+
+        public void PopulateJobComboBox()
+        {
+            JobTitles[] jobTitles = (JobTitles[])Enum.GetValues(typeof(JobTitles));
+            cbJob.DataSource = jobTitles;
+            cbJob.DisplayMember = "ToString";
         }
 
         private void button1_Click(object sender, EventArgs e)
